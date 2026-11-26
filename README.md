@@ -29,7 +29,7 @@ per mnemonic group. Read the delivery README first; it makes the instruction fil
 .
 ├── out/               # deliverables (table above)
 ├── sources/           # ISA manuals: PDFs and plain-text extractions
-├── tools/             # Markdown/structure checkers; legacy scripts documented in tools/README.md
+├── tools/             # formula structure and style checkers
 ├── prog/              # Spike/Sail differential-testing pipeline (generated artifacts untracked)
 ├── reports/           # ACT4 comparison reports (raw 35 MB diff untracked)
 ├── workflow.md        # how a family is derived from the manuals, with a worked FADD example
