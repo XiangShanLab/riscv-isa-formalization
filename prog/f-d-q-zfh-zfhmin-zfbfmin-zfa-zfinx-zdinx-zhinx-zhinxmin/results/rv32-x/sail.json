@@ -1,0 +1,19 @@
+{
+  "command": [
+    "/nfs/home/pushaoyong/projects/testkit4rv/builtin/sail/sail_riscv_sim",
+    "--config",
+    "/nfs/home/pushaoyong/xs-work/formalization/prog/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/configs/rv32-x.json",
+    "--inst-limit",
+    "10052400",
+    "--show-times",
+    "--test-signature",
+    "/nfs/home/pushaoyong/xs-work/formalization/prog/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/results/rv32-x/sail.sig",
+    "--signature-granularity",
+    "4",
+    "/nfs/home/pushaoyong/xs-work/formalization/prog/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/build/rv32-x/suite.elf"
+  ],
+  "returncode": 0,
+  "seconds": 202.107,
+  "stdout": "HTIF located at 0x819b3cc0\nbegin_signature: 0x819b3d00\nend_signature: 0x8215f2c0\nEntry point: 0x80000000\nkips: 23\nkips: 23\nkips: 23\nkips: 23\nSUCCESS\n",
+  "stderr": "will show execution times on completion.\nusing /nfs/home/pushaoyong/xs-work/formalization/prog/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/results/rv32-x/sail.sig for test-signature output.\nInitialization:   447 ms\nExecution:        201626 ms\nInstructions:     4745812\nPerformance:      23 kIPS\n"
+}

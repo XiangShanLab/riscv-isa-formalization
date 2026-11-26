@@ -1,0 +1,102 @@
+{
+  "fadd": {
+    "cases": 15165,
+    "normal": 15165,
+    "traps": 0
+  },
+  "fsub": {
+    "cases": 15165,
+    "normal": 15165,
+    "traps": 0
+  },
+  "fmul": {
+    "cases": 15195,
+    "normal": 15195,
+    "traps": 0
+  },
+  "fdiv": {
+    "cases": 15165,
+    "normal": 15165,
+    "traps": 0
+  },
+  "fmin": {
+    "cases": 2565,
+    "normal": 2565,
+    "traps": 0
+  },
+  "fmax": {
+    "cases": 2565,
+    "normal": 2565,
+    "traps": 0
+  },
+  "fsgnj": {
+    "cases": 7695,
+    "normal": 7695,
+    "traps": 0
+  },
+  "feq": {
+    "cases": 2565,
+    "normal": 2565,
+    "traps": 0
+  },
+  "flt": {
+    "cases": 2565,
+    "normal": 2565,
+    "traps": 0
+  },
+  "fle": {
+    "cases": 2565,
+    "normal": 2565,
+    "traps": 0
+  },
+  "fsqrt": {
+    "cases": 1050,
+    "normal": 1050,
+    "traps": 0
+  },
+  "fclass": {
+    "cases": 105,
+    "normal": 105,
+    "traps": 0
+  },
+  "fmadd": {
+    "cases": 8199,
+    "normal": 8199,
+    "traps": 0
+  },
+  "fmsub": {
+    "cases": 8169,
+    "normal": 8169,
+    "traps": 0
+  },
+  "fnmsub": {
+    "cases": 8169,
+    "normal": 8169,
+    "traps": 0
+  },
+  "fnmadd": {
+    "cases": 8169,
+    "normal": 8169,
+    "traps": 0
+  },
+  "fcvt-to-int": {
+    "cases": 4201,
+    "normal": 4201,
+    "traps": 0
+  },
+  "fcvt-from-int": {
+    "cases": 2700,
+    "normal": 2700,
+    "traps": 0
+  },
+  "fcvt-fp-fp": {
+    "cases": 2123,
+    "normal": 2123,
+    "traps": 0
+  },
+  "fcsr": {
+    "cases": 1560,
+    "normal": 1560,
+    "traps": 0
+  }
+}

@@ -1,0 +1,6021 @@
+{
+  "source_sha256": "6d3277fbdef117d5429c5208e765bae930f58d0ea9a68a423efe9ac2842742a8",
+  "formulas": [
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.0"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.1"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.2"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.3"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.4"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.5"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.6"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.7"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.8"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.9"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.10"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.11"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.12"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.13"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.14"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.15"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.16"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.17"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.18"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.19"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.20"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.21"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.22"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.23"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.24"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.25"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.26"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.27"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.28"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.29"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.30"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.31"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.32"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.33"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.34"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.35"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.36"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.37"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.38"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.39"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.40"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.41"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.42"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.43"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.44"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.45"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.46"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.47"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.48"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.49"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.50"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.BF16.S.51"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.S.BF16.0"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.S.BF16.1"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.S.BF16.2"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.S.BF16.3"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.S.BF16.4"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.S.BF16.5"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.S.BF16.6"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.S.BF16.7"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.S.BF16.8"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.S.BF16.9"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.S.BF16.10"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.S.BF16.11"
+    },
+    {
+      "file": "instructions/bf16.md",
+      "formula": "FCVT.S.BF16.12"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.0"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.1"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.2"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.3"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.4"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.5"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.6"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.7"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.8"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.9"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.10"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.11"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.12"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.13"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.14"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.15"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.16"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.17"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.18"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.19"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.20"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.21"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.22"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.23"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.24"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.25"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.26"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.27"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.28"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.29"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.30"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.31"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.32"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.33"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.34"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.35"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.36"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.37"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.38"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.39"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.40"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.41"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.42"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.43"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.44"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.45"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.46"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.47"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.48"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.49"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.50"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.51"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.52"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.53"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.54"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.55"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.56"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.57"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.58"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.59"
+    },
+    {
+      "file": "instructions/fadd.md",
+      "formula": "FADD.60"
+    },
+    {
+      "file": "instructions/fclass.md",
+      "formula": "FCLASS.0"
+    },
+    {
+      "file": "instructions/fclass.md",
+      "formula": "FCLASS.1"
+    },
+    {
+      "file": "instructions/fclass.md",
+      "formula": "FCLASS.2"
+    },
+    {
+      "file": "instructions/fclass.md",
+      "formula": "FCLASS.3"
+    },
+    {
+      "file": "instructions/fclass.md",
+      "formula": "FCLASS.4"
+    },
+    {
+      "file": "instructions/fclass.md",
+      "formula": "FCLASS.5"
+    },
+    {
+      "file": "instructions/fclass.md",
+      "formula": "FCLASS.6"
+    },
+    {
+      "file": "instructions/fclass.md",
+      "formula": "FCLASS.7"
+    },
+    {
+      "file": "instructions/fclass.md",
+      "formula": "FCLASS.8"
+    },
+    {
+      "file": "instructions/fclass.md",
+      "formula": "FCLASS.9"
+    },
+    {
+      "file": "instructions/fclass.md",
+      "formula": "FCLASS.10"
+    },
+    {
+      "file": "instructions/fclass.md",
+      "formula": "FCLASS.11"
+    },
+    {
+      "file": "instructions/fclass.md",
+      "formula": "FCLASS.12"
+    },
+    {
+      "file": "instructions/fclass.md",
+      "formula": "FCLASS.13"
+    },
+    {
+      "file": "instructions/fclass.md",
+      "formula": "FCLASS.14"
+    },
+    {
+      "file": "instructions/fclass.md",
+      "formula": "FCLASS.15"
+    },
+    {
+      "file": "instructions/fclass.md",
+      "formula": "FCLASS.16"
+    },
+    {
+      "file": "instructions/fclass.md",
+      "formula": "FCLASS.17"
+    },
+    {
+      "file": "instructions/fclass.md",
+      "formula": "FCLASS.18"
+    },
+    {
+      "file": "instructions/fclass.md",
+      "formula": "FCLASS.19"
+    },
+    {
+      "file": "instructions/fclass.md",
+      "formula": "FCLASS.20"
+    },
+    {
+      "file": "instructions/fclass.md",
+      "formula": "FCLASS.21"
+    },
+    {
+      "file": "instructions/fclass.md",
+      "formula": "FCLASS.22"
+    },
+    {
+      "file": "instructions/fclass.md",
+      "formula": "FCLASS.23"
+    },
+    {
+      "file": "instructions/fclass.md",
+      "formula": "FCLASS.24"
+    },
+    {
+      "file": "instructions/fclass.md",
+      "formula": "FCLASS.25"
+    },
+    {
+      "file": "instructions/fclass.md",
+      "formula": "FCLASS.26"
+    },
+    {
+      "file": "instructions/fclass.md",
+      "formula": "FCLASS.27"
+    },
+    {
+      "file": "instructions/fclass.md",
+      "formula": "FCLASS.28"
+    },
+    {
+      "file": "instructions/fclass.md",
+      "formula": "FCLASS.29"
+    },
+    {
+      "file": "instructions/fclass.md",
+      "formula": "FCLASS.30"
+    },
+    {
+      "file": "instructions/fclass.md",
+      "formula": "FCLASS.31"
+    },
+    {
+      "file": "instructions/fclass.md",
+      "formula": "FCLASS.32"
+    },
+    {
+      "file": "instructions/fclass.md",
+      "formula": "FCLASS.33"
+    },
+    {
+      "file": "instructions/fcsr.md",
+      "formula": "FRCSR.0"
+    },
+    {
+      "file": "instructions/fcsr.md",
+      "formula": "FRCSR.1"
+    },
+    {
+      "file": "instructions/fcsr.md",
+      "formula": "FRCSR.2"
+    },
+    {
+      "file": "instructions/fcsr.md",
+      "formula": "FRCSR.3"
+    },
+    {
+      "file": "instructions/fcsr.md",
+      "formula": "FSCSR.0"
+    },
+    {
+      "file": "instructions/fcsr.md",
+      "formula": "FSCSR.1"
+    },
+    {
+      "file": "instructions/fcsr.md",
+      "formula": "FSCSR.2"
+    },
+    {
+      "file": "instructions/fcsr.md",
+      "formula": "FSCSR.3"
+    },
+    {
+      "file": "instructions/fcsr.md",
+      "formula": "FRRM.0"
+    },
+    {
+      "file": "instructions/fcsr.md",
+      "formula": "FRRM.1"
+    },
+    {
+      "file": "instructions/fcsr.md",
+      "formula": "FRRM.2"
+    },
+    {
+      "file": "instructions/fcsr.md",
+      "formula": "FRRM.3"
+    },
+    {
+      "file": "instructions/fcsr.md",
+      "formula": "FSRM.0"
+    },
+    {
+      "file": "instructions/fcsr.md",
+      "formula": "FSRM.1"
+    },
+    {
+      "file": "instructions/fcsr.md",
+      "formula": "FSRM.2"
+    },
+    {
+      "file": "instructions/fcsr.md",
+      "formula": "FSRM.3"
+    },
+    {
+      "file": "instructions/fcsr.md",
+      "formula": "FRFLAGS.0"
+    },
+    {
+      "file": "instructions/fcsr.md",
+      "formula": "FRFLAGS.1"
+    },
+    {
+      "file": "instructions/fcsr.md",
+      "formula": "FRFLAGS.2"
+    },
+    {
+      "file": "instructions/fcsr.md",
+      "formula": "FRFLAGS.3"
+    },
+    {
+      "file": "instructions/fcsr.md",
+      "formula": "FSFLAGS.0"
+    },
+    {
+      "file": "instructions/fcsr.md",
+      "formula": "FSFLAGS.1"
+    },
+    {
+      "file": "instructions/fcsr.md",
+      "formula": "FSFLAGS.2"
+    },
+    {
+      "file": "instructions/fcsr.md",
+      "formula": "FSFLAGS.3"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.0"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.1"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.2"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.3"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.4"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.5"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.6"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.7"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.8"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.9"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.10"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.11"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.12"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.13"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.14"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.15"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.16"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.17"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.18"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.19"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.20"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.21"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.22"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.23"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.24"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.25"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.26"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.27"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.28"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.29"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.30"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.31"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.32"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.33"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.34"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.35"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.36"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.37"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.38"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.39"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.40"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.41"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.42"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.43"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.44"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.45"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.46"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.47"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.48"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.49"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.50"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.51"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.W1"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.W2"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.W3"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.W4"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.W5"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.W6"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.W7"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.W8"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.W9"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.W10"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.W11"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.W12"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.W13"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.W14"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.W15"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.W16"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.W17"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.W18"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.W19"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.W20"
+    },
+    {
+      "file": "instructions/fcvt-fp-fp.md",
+      "formula": "FCVT.F.G.W21"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.W.0"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.W.1"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.W.2"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.W.3"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.W.4"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.W.5"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.W.6"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.W.7"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.W.8"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.W.9"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.W.10"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.W.11"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.W.12"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.W.13"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.W.14"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.W.15"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.W.16"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.W.17"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.W.18"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.WU.0"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.WU.1"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.WU.2"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.WU.3"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.WU.4"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.WU.5"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.WU.6"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.WU.7"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.WU.8"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.WU.9"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.WU.10"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.WU.11"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.WU.12"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.L.0"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.L.1"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.L.2"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.L.3"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.L.4"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.L.5"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.L.6"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.L.7"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.L.8"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.L.9"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.L.10"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.L.11"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.L.12"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.L.13"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.L.14"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.L.15"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.L.16"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.L.17"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.L.18"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.LU.0"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.LU.1"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.LU.2"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.LU.3"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.LU.4"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.LU.5"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.LU.6"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.LU.7"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.LU.8"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.LU.9"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.LU.10"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.LU.11"
+    },
+    {
+      "file": "instructions/fcvt-from-int.md",
+      "formula": "FCVT.LU.12"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.W.0"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.W.1"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.W.2"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.W.3"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.W.4"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.W.5"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.W.6"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.W.7"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.W.8"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.W.9"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.W.10"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.W.11"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.W.12"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.W.13"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.W.14"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.W.15"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.W.16"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.W.17"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.W.18"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.W.19"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.W.20"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.W.21"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.W.22"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.W.23"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.W.24"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.WU.0"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.WU.1"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.WU.2"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.WU.3"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.WU.4"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.WU.5"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.WU.6"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.WU.7"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.WU.8"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.WU.9"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.WU.10"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.WU.11"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.WU.12"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.WU.13"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.WU.14"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.WU.15"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.WU.16"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.WU.17"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.WU.18"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.WU.19"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.WU.20"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.WU.21"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.WU.22"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.WU.23"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.WU.24"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.L.0"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.L.1"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.L.2"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.L.3"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.L.4"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.L.5"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.L.6"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.L.7"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.L.8"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.L.9"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.L.10"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.L.11"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.L.12"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.L.13"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.L.14"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.L.15"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.L.16"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.L.17"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.L.18"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.L.19"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.L.20"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.L.21"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.L.22"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.L.23"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.L.24"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.LU.0"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.LU.1"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.LU.2"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.LU.3"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.LU.4"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.LU.5"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.LU.6"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.LU.7"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.LU.8"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.LU.9"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.LU.10"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.LU.11"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.LU.12"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.LU.13"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.LU.14"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.LU.15"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.LU.16"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.LU.17"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.LU.18"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.LU.19"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.LU.20"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.LU.21"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.LU.22"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.LU.23"
+    },
+    {
+      "file": "instructions/fcvt-to-int.md",
+      "formula": "FCVT.LU.24"
+    },
+    {
+      "file": "instructions/fcvttmod.md",
+      "formula": "FCVTMOD.W.D.0"
+    },
+    {
+      "file": "instructions/fcvttmod.md",
+      "formula": "FCVTMOD.W.D.1"
+    },
+    {
+      "file": "instructions/fcvttmod.md",
+      "formula": "FCVTMOD.W.D.2"
+    },
+    {
+      "file": "instructions/fcvttmod.md",
+      "formula": "FCVTMOD.W.D.3"
+    },
+    {
+      "file": "instructions/fcvttmod.md",
+      "formula": "FCVTMOD.W.D.4"
+    },
+    {
+      "file": "instructions/fcvttmod.md",
+      "formula": "FCVTMOD.W.D.5"
+    },
+    {
+      "file": "instructions/fcvttmod.md",
+      "formula": "FCVTMOD.W.D.6"
+    },
+    {
+      "file": "instructions/fcvttmod.md",
+      "formula": "FCVTMOD.W.D.7"
+    },
+    {
+      "file": "instructions/fcvttmod.md",
+      "formula": "FCVTMOD.W.D.8"
+    },
+    {
+      "file": "instructions/fcvttmod.md",
+      "formula": "FCVTMOD.W.D.9"
+    },
+    {
+      "file": "instructions/fcvttmod.md",
+      "formula": "FCVTMOD.W.D.10"
+    },
+    {
+      "file": "instructions/fcvttmod.md",
+      "formula": "FCVTMOD.W.D.11"
+    },
+    {
+      "file": "instructions/fcvttmod.md",
+      "formula": "FCVTMOD.W.D.12"
+    },
+    {
+      "file": "instructions/fcvttmod.md",
+      "formula": "FCVTMOD.W.D.13"
+    },
+    {
+      "file": "instructions/fcvttmod.md",
+      "formula": "FCVTMOD.W.D.14"
+    },
+    {
+      "file": "instructions/fcvttmod.md",
+      "formula": "FCVTMOD.W.D.15"
+    },
+    {
+      "file": "instructions/fcvttmod.md",
+      "formula": "FCVTMOD.W.D.16"
+    },
+    {
+      "file": "instructions/fcvttmod.md",
+      "formula": "FCVTMOD.W.D.17"
+    },
+    {
+      "file": "instructions/fcvttmod.md",
+      "formula": "FCVTMOD.W.D.18"
+    },
+    {
+      "file": "instructions/fcvttmod.md",
+      "formula": "FCVTMOD.W.D.19"
+    },
+    {
+      "file": "instructions/fcvttmod.md",
+      "formula": "FCVTMOD.W.D.20"
+    },
+    {
+      "file": "instructions/fcvttmod.md",
+      "formula": "FCVTMOD.W.D.21"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.0"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.1"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.2"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.3"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.4"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.5"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.6"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.7"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.8"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.9"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.10"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.11"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.12"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.13"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.14"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.15"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.16"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.17"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.18"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.19"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.20"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.21"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.22"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.23"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.24"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.25"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.26"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.27"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.28"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.29"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.30"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.31"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.32"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.33"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.34"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.35"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.36"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.37"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.38"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.39"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.40"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.41"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.42"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.43"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.44"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.45"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.46"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.47"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.48"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.49"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.50"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.51"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.52"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.53"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.54"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.55"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.56"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.57"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.58"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.59"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.60"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.61"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.62"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.63"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.64"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.65"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.66"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.67"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.68"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.69"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.70"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.71"
+    },
+    {
+      "file": "instructions/fdiv.md",
+      "formula": "FDIV.72"
+    },
+    {
+      "file": "instructions/feq.md",
+      "formula": "FEQ.0"
+    },
+    {
+      "file": "instructions/feq.md",
+      "formula": "FEQ.1"
+    },
+    {
+      "file": "instructions/feq.md",
+      "formula": "FEQ.2"
+    },
+    {
+      "file": "instructions/feq.md",
+      "formula": "FEQ.3"
+    },
+    {
+      "file": "instructions/feq.md",
+      "formula": "FEQ.4"
+    },
+    {
+      "file": "instructions/feq.md",
+      "formula": "FEQ.5"
+    },
+    {
+      "file": "instructions/feq.md",
+      "formula": "FEQ.6"
+    },
+    {
+      "file": "instructions/feq.md",
+      "formula": "FEQ.7"
+    },
+    {
+      "file": "instructions/feq.md",
+      "formula": "FEQ.8"
+    },
+    {
+      "file": "instructions/feq.md",
+      "formula": "FEQ.9"
+    },
+    {
+      "file": "instructions/feq.md",
+      "formula": "FEQ.10"
+    },
+    {
+      "file": "instructions/feq.md",
+      "formula": "FEQ.11"
+    },
+    {
+      "file": "instructions/feq.md",
+      "formula": "FEQ.12"
+    },
+    {
+      "file": "instructions/feq.md",
+      "formula": "FEQ.13"
+    },
+    {
+      "file": "instructions/feq.md",
+      "formula": "FEQ.14"
+    },
+    {
+      "file": "instructions/feq.md",
+      "formula": "FEQ.15"
+    },
+    {
+      "file": "instructions/fld.md",
+      "formula": "FLD.0"
+    },
+    {
+      "file": "instructions/fld.md",
+      "formula": "FLD.1"
+    },
+    {
+      "file": "instructions/fld.md",
+      "formula": "FLD.2"
+    },
+    {
+      "file": "instructions/fld.md",
+      "formula": "FLD.3"
+    },
+    {
+      "file": "instructions/fld.md",
+      "formula": "FLD.4"
+    },
+    {
+      "file": "instructions/fld.md",
+      "formula": "FLD.5"
+    },
+    {
+      "file": "instructions/fld.md",
+      "formula": "FLD.6"
+    },
+    {
+      "file": "instructions/fld.md",
+      "formula": "FLD.7"
+    },
+    {
+      "file": "instructions/fld.md",
+      "formula": "FLD.8"
+    },
+    {
+      "file": "instructions/fld.md",
+      "formula": "FLD.9"
+    },
+    {
+      "file": "instructions/fld.md",
+      "formula": "FLD.10"
+    },
+    {
+      "file": "instructions/fld.md",
+      "formula": "FLD.11"
+    },
+    {
+      "file": "instructions/fld.md",
+      "formula": "FLD.12"
+    },
+    {
+      "file": "instructions/fld.md",
+      "formula": "FLD.13"
+    },
+    {
+      "file": "instructions/fld.md",
+      "formula": "FLD.14"
+    },
+    {
+      "file": "instructions/fld.md",
+      "formula": "FLD.15"
+    },
+    {
+      "file": "instructions/fld.md",
+      "formula": "FLD.16"
+    },
+    {
+      "file": "instructions/fld.md",
+      "formula": "FLD.17"
+    },
+    {
+      "file": "instructions/fld.md",
+      "formula": "FLD.18"
+    },
+    {
+      "file": "instructions/fld.md",
+      "formula": "FLD.19"
+    },
+    {
+      "file": "instructions/fld.md",
+      "formula": "FLD.20"
+    },
+    {
+      "file": "instructions/fld.md",
+      "formula": "FLD.21"
+    },
+    {
+      "file": "instructions/fld.md",
+      "formula": "FLD.22"
+    },
+    {
+      "file": "instructions/fld.md",
+      "formula": "FLD.23"
+    },
+    {
+      "file": "instructions/fld.md",
+      "formula": "FLD.24"
+    },
+    {
+      "file": "instructions/fle.md",
+      "formula": "FLE.0"
+    },
+    {
+      "file": "instructions/fle.md",
+      "formula": "FLE.1"
+    },
+    {
+      "file": "instructions/fle.md",
+      "formula": "FLE.2"
+    },
+    {
+      "file": "instructions/fle.md",
+      "formula": "FLE.3"
+    },
+    {
+      "file": "instructions/fle.md",
+      "formula": "FLE.4"
+    },
+    {
+      "file": "instructions/fle.md",
+      "formula": "FLE.5"
+    },
+    {
+      "file": "instructions/fle.md",
+      "formula": "FLE.6"
+    },
+    {
+      "file": "instructions/fle.md",
+      "formula": "FLE.7"
+    },
+    {
+      "file": "instructions/fle.md",
+      "formula": "FLE.8"
+    },
+    {
+      "file": "instructions/fle.md",
+      "formula": "FLE.9"
+    },
+    {
+      "file": "instructions/fleq.md",
+      "formula": "FLEQ.0"
+    },
+    {
+      "file": "instructions/fleq.md",
+      "formula": "FLEQ.1"
+    },
+    {
+      "file": "instructions/fleq.md",
+      "formula": "FLEQ.2"
+    },
+    {
+      "file": "instructions/fleq.md",
+      "formula": "FLEQ.3"
+    },
+    {
+      "file": "instructions/fleq.md",
+      "formula": "FLEQ.4"
+    },
+    {
+      "file": "instructions/fleq.md",
+      "formula": "FLEQ.5"
+    },
+    {
+      "file": "instructions/fleq.md",
+      "formula": "FLEQ.6"
+    },
+    {
+      "file": "instructions/fleq.md",
+      "formula": "FLEQ.7"
+    },
+    {
+      "file": "instructions/fleq.md",
+      "formula": "FLEQ.8"
+    },
+    {
+      "file": "instructions/fleq.md",
+      "formula": "FLEQ.9"
+    },
+    {
+      "file": "instructions/fleq.md",
+      "formula": "FLEQ.10"
+    },
+    {
+      "file": "instructions/fleq.md",
+      "formula": "FLEQ.11"
+    },
+    {
+      "file": "instructions/fleq.md",
+      "formula": "FLEQ.12"
+    },
+    {
+      "file": "instructions/fleq.md",
+      "formula": "FLEQ.13"
+    },
+    {
+      "file": "instructions/fleq.md",
+      "formula": "FLEQ.14"
+    },
+    {
+      "file": "instructions/fleq.md",
+      "formula": "FLEQ.15"
+    },
+    {
+      "file": "instructions/flh.md",
+      "formula": "FLH.0"
+    },
+    {
+      "file": "instructions/flh.md",
+      "formula": "FLH.1"
+    },
+    {
+      "file": "instructions/flh.md",
+      "formula": "FLH.2"
+    },
+    {
+      "file": "instructions/flh.md",
+      "formula": "FLH.3"
+    },
+    {
+      "file": "instructions/flh.md",
+      "formula": "FLH.4"
+    },
+    {
+      "file": "instructions/flh.md",
+      "formula": "FLH.5"
+    },
+    {
+      "file": "instructions/flh.md",
+      "formula": "FLH.6"
+    },
+    {
+      "file": "instructions/flh.md",
+      "formula": "FLH.7"
+    },
+    {
+      "file": "instructions/flh.md",
+      "formula": "FLH.8"
+    },
+    {
+      "file": "instructions/flh.md",
+      "formula": "FLH.9"
+    },
+    {
+      "file": "instructions/flh.md",
+      "formula": "FLH.10"
+    },
+    {
+      "file": "instructions/flh.md",
+      "formula": "FLH.11"
+    },
+    {
+      "file": "instructions/flh.md",
+      "formula": "FLH.12"
+    },
+    {
+      "file": "instructions/flh.md",
+      "formula": "FLH.13"
+    },
+    {
+      "file": "instructions/flh.md",
+      "formula": "FLH.14"
+    },
+    {
+      "file": "instructions/flh.md",
+      "formula": "FLH.15"
+    },
+    {
+      "file": "instructions/flh.md",
+      "formula": "FLH.16"
+    },
+    {
+      "file": "instructions/flh.md",
+      "formula": "FLH.17"
+    },
+    {
+      "file": "instructions/flh.md",
+      "formula": "FLH.18"
+    },
+    {
+      "file": "instructions/flh.md",
+      "formula": "FLH.19"
+    },
+    {
+      "file": "instructions/flh.md",
+      "formula": "FLH.20"
+    },
+    {
+      "file": "instructions/flh.md",
+      "formula": "FLH.21"
+    },
+    {
+      "file": "instructions/flh.md",
+      "formula": "FLH.22"
+    },
+    {
+      "file": "instructions/flh.md",
+      "formula": "FLH.23"
+    },
+    {
+      "file": "instructions/flh.md",
+      "formula": "FLH.24"
+    },
+    {
+      "file": "instructions/fli.md",
+      "formula": "FLI.0"
+    },
+    {
+      "file": "instructions/fli.md",
+      "formula": "FLI.1"
+    },
+    {
+      "file": "instructions/fli.md",
+      "formula": "FLI.2"
+    },
+    {
+      "file": "instructions/fli.md",
+      "formula": "FLI.3"
+    },
+    {
+      "file": "instructions/flq.md",
+      "formula": "FLQ.0"
+    },
+    {
+      "file": "instructions/flq.md",
+      "formula": "FLQ.1"
+    },
+    {
+      "file": "instructions/flq.md",
+      "formula": "FLQ.2"
+    },
+    {
+      "file": "instructions/flq.md",
+      "formula": "FLQ.3"
+    },
+    {
+      "file": "instructions/flq.md",
+      "formula": "FLQ.4"
+    },
+    {
+      "file": "instructions/flq.md",
+      "formula": "FLQ.5"
+    },
+    {
+      "file": "instructions/flq.md",
+      "formula": "FLQ.6"
+    },
+    {
+      "file": "instructions/flq.md",
+      "formula": "FLQ.7"
+    },
+    {
+      "file": "instructions/flq.md",
+      "formula": "FLQ.8"
+    },
+    {
+      "file": "instructions/flq.md",
+      "formula": "FLQ.9"
+    },
+    {
+      "file": "instructions/flq.md",
+      "formula": "FLQ.10"
+    },
+    {
+      "file": "instructions/flq.md",
+      "formula": "FLQ.11"
+    },
+    {
+      "file": "instructions/flq.md",
+      "formula": "FLQ.12"
+    },
+    {
+      "file": "instructions/flq.md",
+      "formula": "FLQ.13"
+    },
+    {
+      "file": "instructions/flq.md",
+      "formula": "FLQ.14"
+    },
+    {
+      "file": "instructions/flq.md",
+      "formula": "FLQ.15"
+    },
+    {
+      "file": "instructions/flq.md",
+      "formula": "FLQ.16"
+    },
+    {
+      "file": "instructions/flq.md",
+      "formula": "FLQ.17"
+    },
+    {
+      "file": "instructions/flq.md",
+      "formula": "FLQ.18"
+    },
+    {
+      "file": "instructions/flq.md",
+      "formula": "FLQ.19"
+    },
+    {
+      "file": "instructions/flq.md",
+      "formula": "FLQ.20"
+    },
+    {
+      "file": "instructions/flq.md",
+      "formula": "FLQ.21"
+    },
+    {
+      "file": "instructions/flq.md",
+      "formula": "FLQ.22"
+    },
+    {
+      "file": "instructions/flq.md",
+      "formula": "FLQ.23"
+    },
+    {
+      "file": "instructions/flq.md",
+      "formula": "FLQ.24"
+    },
+    {
+      "file": "instructions/flt.md",
+      "formula": "FLT.0"
+    },
+    {
+      "file": "instructions/flt.md",
+      "formula": "FLT.1"
+    },
+    {
+      "file": "instructions/flt.md",
+      "formula": "FLT.2"
+    },
+    {
+      "file": "instructions/flt.md",
+      "formula": "FLT.3"
+    },
+    {
+      "file": "instructions/flt.md",
+      "formula": "FLT.4"
+    },
+    {
+      "file": "instructions/flt.md",
+      "formula": "FLT.5"
+    },
+    {
+      "file": "instructions/flt.md",
+      "formula": "FLT.6"
+    },
+    {
+      "file": "instructions/flt.md",
+      "formula": "FLT.7"
+    },
+    {
+      "file": "instructions/flt.md",
+      "formula": "FLT.8"
+    },
+    {
+      "file": "instructions/flt.md",
+      "formula": "FLT.9"
+    },
+    {
+      "file": "instructions/fltq.md",
+      "formula": "FLTQ.0"
+    },
+    {
+      "file": "instructions/fltq.md",
+      "formula": "FLTQ.1"
+    },
+    {
+      "file": "instructions/fltq.md",
+      "formula": "FLTQ.2"
+    },
+    {
+      "file": "instructions/fltq.md",
+      "formula": "FLTQ.3"
+    },
+    {
+      "file": "instructions/fltq.md",
+      "formula": "FLTQ.4"
+    },
+    {
+      "file": "instructions/fltq.md",
+      "formula": "FLTQ.5"
+    },
+    {
+      "file": "instructions/fltq.md",
+      "formula": "FLTQ.6"
+    },
+    {
+      "file": "instructions/fltq.md",
+      "formula": "FLTQ.7"
+    },
+    {
+      "file": "instructions/fltq.md",
+      "formula": "FLTQ.8"
+    },
+    {
+      "file": "instructions/fltq.md",
+      "formula": "FLTQ.9"
+    },
+    {
+      "file": "instructions/fltq.md",
+      "formula": "FLTQ.10"
+    },
+    {
+      "file": "instructions/fltq.md",
+      "formula": "FLTQ.11"
+    },
+    {
+      "file": "instructions/fltq.md",
+      "formula": "FLTQ.12"
+    },
+    {
+      "file": "instructions/fltq.md",
+      "formula": "FLTQ.13"
+    },
+    {
+      "file": "instructions/fltq.md",
+      "formula": "FLTQ.14"
+    },
+    {
+      "file": "instructions/fltq.md",
+      "formula": "FLTQ.15"
+    },
+    {
+      "file": "instructions/flw.md",
+      "formula": "FLW.0"
+    },
+    {
+      "file": "instructions/flw.md",
+      "formula": "FLW.1"
+    },
+    {
+      "file": "instructions/flw.md",
+      "formula": "FLW.2"
+    },
+    {
+      "file": "instructions/flw.md",
+      "formula": "FLW.3"
+    },
+    {
+      "file": "instructions/flw.md",
+      "formula": "FLW.4"
+    },
+    {
+      "file": "instructions/flw.md",
+      "formula": "FLW.5"
+    },
+    {
+      "file": "instructions/flw.md",
+      "formula": "FLW.6"
+    },
+    {
+      "file": "instructions/flw.md",
+      "formula": "FLW.7"
+    },
+    {
+      "file": "instructions/flw.md",
+      "formula": "FLW.8"
+    },
+    {
+      "file": "instructions/flw.md",
+      "formula": "FLW.9"
+    },
+    {
+      "file": "instructions/flw.md",
+      "formula": "FLW.10"
+    },
+    {
+      "file": "instructions/flw.md",
+      "formula": "FLW.11"
+    },
+    {
+      "file": "instructions/flw.md",
+      "formula": "FLW.12"
+    },
+    {
+      "file": "instructions/flw.md",
+      "formula": "FLW.13"
+    },
+    {
+      "file": "instructions/flw.md",
+      "formula": "FLW.14"
+    },
+    {
+      "file": "instructions/flw.md",
+      "formula": "FLW.15"
+    },
+    {
+      "file": "instructions/flw.md",
+      "formula": "FLW.16"
+    },
+    {
+      "file": "instructions/flw.md",
+      "formula": "FLW.17"
+    },
+    {
+      "file": "instructions/flw.md",
+      "formula": "FLW.18"
+    },
+    {
+      "file": "instructions/flw.md",
+      "formula": "FLW.19"
+    },
+    {
+      "file": "instructions/flw.md",
+      "formula": "FLW.20"
+    },
+    {
+      "file": "instructions/flw.md",
+      "formula": "FLW.21"
+    },
+    {
+      "file": "instructions/flw.md",
+      "formula": "FLW.22"
+    },
+    {
+      "file": "instructions/flw.md",
+      "formula": "FLW.23"
+    },
+    {
+      "file": "instructions/flw.md",
+      "formula": "FLW.24"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.0"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.1"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.2"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.3"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.4"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.5"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.6"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.7"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.8"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.9"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.10"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.11"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.12"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.13"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.14"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.15"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.16"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.17"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.18"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.19"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.20"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.21"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.22"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.23"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.24"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.25"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.26"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.27"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.28"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.29"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.30"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.31"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.32"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.33"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.34"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.35"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.36"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.37"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.38"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.39"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.40"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.41"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.42"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.43"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.44"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.45"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.46"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.47"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.48"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.49"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.50"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.51"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.52"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.53"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.54"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.55"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.56"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.57"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.58"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.59"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.60"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.61"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.62"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.63"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.64"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.65"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.66"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.67"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.68"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.69"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.70"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.71"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.72"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.73"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.74"
+    },
+    {
+      "file": "instructions/fmadd.md",
+      "formula": "FMADD.75"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.0"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.1"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.2"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.3"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.4"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.5"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.6"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.7"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.8"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.9"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.10"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.11"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.12"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.13"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.14"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.15"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.16"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.17"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.18"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.19"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.20"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.21"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.22"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.23"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.24"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.25"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.26"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.27"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.28"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.29"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.30"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.31"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.32"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.33"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.34"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.35"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.36"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.37"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.38"
+    },
+    {
+      "file": "instructions/fmax.md",
+      "formula": "FMAX.39"
+    },
+    {
+      "file": "instructions/fmaxm.md",
+      "formula": "FMAXM.0"
+    },
+    {
+      "file": "instructions/fmaxm.md",
+      "formula": "FMAXM.1"
+    },
+    {
+      "file": "instructions/fmaxm.md",
+      "formula": "FMAXM.2"
+    },
+    {
+      "file": "instructions/fmaxm.md",
+      "formula": "FMAXM.3"
+    },
+    {
+      "file": "instructions/fmaxm.md",
+      "formula": "FMAXM.4"
+    },
+    {
+      "file": "instructions/fmaxm.md",
+      "formula": "FMAXM.5"
+    },
+    {
+      "file": "instructions/fmaxm.md",
+      "formula": "FMAXM.6"
+    },
+    {
+      "file": "instructions/fmaxm.md",
+      "formula": "FMAXM.7"
+    },
+    {
+      "file": "instructions/fmaxm.md",
+      "formula": "FMAXM.8"
+    },
+    {
+      "file": "instructions/fmaxm.md",
+      "formula": "FMAXM.9"
+    },
+    {
+      "file": "instructions/fmaxm.md",
+      "formula": "FMAXM.10"
+    },
+    {
+      "file": "instructions/fmaxm.md",
+      "formula": "FMAXM.11"
+    },
+    {
+      "file": "instructions/fmaxm.md",
+      "formula": "FMAXM.12"
+    },
+    {
+      "file": "instructions/fmaxm.md",
+      "formula": "FMAXM.13"
+    },
+    {
+      "file": "instructions/fmaxm.md",
+      "formula": "FMAXM.14"
+    },
+    {
+      "file": "instructions/fmaxm.md",
+      "formula": "FMAXM.15"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.0"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.1"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.2"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.3"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.4"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.5"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.6"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.7"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.8"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.9"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.10"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.11"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.12"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.13"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.14"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.15"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.16"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.17"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.18"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.19"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.20"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.21"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.22"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.23"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.24"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.25"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.26"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.27"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.28"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.29"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.30"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.31"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.32"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.33"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.34"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.35"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.36"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.37"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.38"
+    },
+    {
+      "file": "instructions/fmin.md",
+      "formula": "FMIN.39"
+    },
+    {
+      "file": "instructions/fminm.md",
+      "formula": "FMINM.0"
+    },
+    {
+      "file": "instructions/fminm.md",
+      "formula": "FMINM.1"
+    },
+    {
+      "file": "instructions/fminm.md",
+      "formula": "FMINM.2"
+    },
+    {
+      "file": "instructions/fminm.md",
+      "formula": "FMINM.3"
+    },
+    {
+      "file": "instructions/fminm.md",
+      "formula": "FMINM.4"
+    },
+    {
+      "file": "instructions/fminm.md",
+      "formula": "FMINM.5"
+    },
+    {
+      "file": "instructions/fminm.md",
+      "formula": "FMINM.6"
+    },
+    {
+      "file": "instructions/fminm.md",
+      "formula": "FMINM.7"
+    },
+    {
+      "file": "instructions/fminm.md",
+      "formula": "FMINM.8"
+    },
+    {
+      "file": "instructions/fminm.md",
+      "formula": "FMINM.9"
+    },
+    {
+      "file": "instructions/fminm.md",
+      "formula": "FMINM.10"
+    },
+    {
+      "file": "instructions/fminm.md",
+      "formula": "FMINM.11"
+    },
+    {
+      "file": "instructions/fminm.md",
+      "formula": "FMINM.12"
+    },
+    {
+      "file": "instructions/fminm.md",
+      "formula": "FMINM.13"
+    },
+    {
+      "file": "instructions/fminm.md",
+      "formula": "FMINM.14"
+    },
+    {
+      "file": "instructions/fminm.md",
+      "formula": "FMINM.15"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.0"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.1"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.2"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.3"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.4"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.5"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.6"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.7"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.8"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.9"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.10"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.11"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.12"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.13"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.14"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.15"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.16"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.17"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.18"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.19"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.20"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.21"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.22"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.23"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.24"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.25"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.26"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.27"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.28"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.29"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.30"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.31"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.32"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.33"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.34"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.35"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.36"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.37"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.38"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.39"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.40"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.41"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.42"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.43"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.44"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.45"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.46"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.47"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.48"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.49"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.50"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.51"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.52"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.53"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.54"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.55"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.56"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.57"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.58"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.59"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.60"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.61"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.62"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.63"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.64"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.65"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.66"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.67"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.68"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.69"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.70"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.71"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.72"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.73"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.74"
+    },
+    {
+      "file": "instructions/fmsub.md",
+      "formula": "FMSUB.75"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.0"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.1"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.2"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.3"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.4"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.5"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.6"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.7"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.8"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.9"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.10"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.11"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.12"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.13"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.14"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.15"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.16"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.17"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.18"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.19"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.20"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.21"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.22"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.23"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.24"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.25"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.26"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.27"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.28"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.29"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.30"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.31"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.32"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.33"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.34"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.35"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.36"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.37"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.38"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.39"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.40"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.41"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.42"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.43"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.44"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.45"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.46"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.47"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.48"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.49"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.50"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.51"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.52"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.53"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.54"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.55"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.56"
+    },
+    {
+      "file": "instructions/fmul.md",
+      "formula": "FMUL.57"
+    },
+    {
+      "file": "instructions/fmv-d.md",
+      "formula": "FMV.X.D.0"
+    },
+    {
+      "file": "instructions/fmv-d.md",
+      "formula": "FMV.X.D.1"
+    },
+    {
+      "file": "instructions/fmv-d.md",
+      "formula": "FMV.X.D.2"
+    },
+    {
+      "file": "instructions/fmv-d.md",
+      "formula": "FMV.X.D.3"
+    },
+    {
+      "file": "instructions/fmv-d.md",
+      "formula": "FMV.D.X.0"
+    },
+    {
+      "file": "instructions/fmv-d.md",
+      "formula": "FMV.D.X.1"
+    },
+    {
+      "file": "instructions/fmv-d.md",
+      "formula": "FMV.D.X.2"
+    },
+    {
+      "file": "instructions/fmv-d.md",
+      "formula": "FMV.D.X.3"
+    },
+    {
+      "file": "instructions/fmv-h.md",
+      "formula": "FMV.X.H.0"
+    },
+    {
+      "file": "instructions/fmv-h.md",
+      "formula": "FMV.X.H.1"
+    },
+    {
+      "file": "instructions/fmv-h.md",
+      "formula": "FMV.X.H.2"
+    },
+    {
+      "file": "instructions/fmv-h.md",
+      "formula": "FMV.X.H.3"
+    },
+    {
+      "file": "instructions/fmv-h.md",
+      "formula": "FMV.H.X.0"
+    },
+    {
+      "file": "instructions/fmv-h.md",
+      "formula": "FMV.H.X.1"
+    },
+    {
+      "file": "instructions/fmv-h.md",
+      "formula": "FMV.H.X.2"
+    },
+    {
+      "file": "instructions/fmv-h.md",
+      "formula": "FMV.H.X.3"
+    },
+    {
+      "file": "instructions/fmv-w.md",
+      "formula": "FMV.X.W.0"
+    },
+    {
+      "file": "instructions/fmv-w.md",
+      "formula": "FMV.X.W.1"
+    },
+    {
+      "file": "instructions/fmv-w.md",
+      "formula": "FMV.X.W.2"
+    },
+    {
+      "file": "instructions/fmv-w.md",
+      "formula": "FMV.X.W.3"
+    },
+    {
+      "file": "instructions/fmv-w.md",
+      "formula": "FMV.W.X.0"
+    },
+    {
+      "file": "instructions/fmv-w.md",
+      "formula": "FMV.W.X.1"
+    },
+    {
+      "file": "instructions/fmv-w.md",
+      "formula": "FMV.W.X.2"
+    },
+    {
+      "file": "instructions/fmv-w.md",
+      "formula": "FMV.W.X.3"
+    },
+    {
+      "file": "instructions/fmvh.md",
+      "formula": "FMVH.X.D.0"
+    },
+    {
+      "file": "instructions/fmvh.md",
+      "formula": "FMVH.X.D.1"
+    },
+    {
+      "file": "instructions/fmvh.md",
+      "formula": "FMVH.X.D.2"
+    },
+    {
+      "file": "instructions/fmvh.md",
+      "formula": "FMVH.X.D.3"
+    },
+    {
+      "file": "instructions/fmvh.md",
+      "formula": "FMVH.X.Q.0"
+    },
+    {
+      "file": "instructions/fmvh.md",
+      "formula": "FMVH.X.Q.1"
+    },
+    {
+      "file": "instructions/fmvh.md",
+      "formula": "FMVH.X.Q.2"
+    },
+    {
+      "file": "instructions/fmvh.md",
+      "formula": "FMVH.X.Q.3"
+    },
+    {
+      "file": "instructions/fmvp.md",
+      "formula": "FMVP.D.X.0"
+    },
+    {
+      "file": "instructions/fmvp.md",
+      "formula": "FMVP.D.X.1"
+    },
+    {
+      "file": "instructions/fmvp.md",
+      "formula": "FMVP.D.X.2"
+    },
+    {
+      "file": "instructions/fmvp.md",
+      "formula": "FMVP.D.X.3"
+    },
+    {
+      "file": "instructions/fmvp.md",
+      "formula": "FMVP.Q.X.0"
+    },
+    {
+      "file": "instructions/fmvp.md",
+      "formula": "FMVP.Q.X.1"
+    },
+    {
+      "file": "instructions/fmvp.md",
+      "formula": "FMVP.Q.X.2"
+    },
+    {
+      "file": "instructions/fmvp.md",
+      "formula": "FMVP.Q.X.3"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.0"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.1"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.2"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.3"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.4"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.5"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.6"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.7"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.8"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.9"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.10"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.11"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.12"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.13"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.14"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.15"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.16"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.17"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.18"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.19"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.20"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.21"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.22"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.23"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.24"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.25"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.26"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.27"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.28"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.29"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.30"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.31"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.32"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.33"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.34"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.35"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.36"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.37"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.38"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.39"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.40"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.41"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.42"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.43"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.44"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.45"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.46"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.47"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.48"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.49"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.50"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.51"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.52"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.53"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.54"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.55"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.56"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.57"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.58"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.59"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.60"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.61"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.62"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.63"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.64"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.65"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.66"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.67"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.68"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.69"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.70"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.71"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.72"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.73"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.74"
+    },
+    {
+      "file": "instructions/fnmadd.md",
+      "formula": "FNMADD.75"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.0"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.1"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.2"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.3"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.4"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.5"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.6"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.7"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.8"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.9"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.10"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.11"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.12"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.13"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.14"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.15"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.16"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.17"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.18"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.19"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.20"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.21"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.22"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.23"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.24"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.25"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.26"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.27"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.28"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.29"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.30"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.31"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.32"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.33"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.34"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.35"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.36"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.37"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.38"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.39"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.40"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.41"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.42"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.43"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.44"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.45"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.46"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.47"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.48"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.49"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.50"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.51"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.52"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.53"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.54"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.55"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.56"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.57"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.58"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.59"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.60"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.61"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.62"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.63"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.64"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.65"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.66"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.67"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.68"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.69"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.70"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.71"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.72"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.73"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.74"
+    },
+    {
+      "file": "instructions/fnmsub.md",
+      "formula": "FNMSUB.75"
+    },
+    {
+      "file": "instructions/fround.md",
+      "formula": "FROUND.0"
+    },
+    {
+      "file": "instructions/fround.md",
+      "formula": "FROUND.1"
+    },
+    {
+      "file": "instructions/fround.md",
+      "formula": "FROUND.2"
+    },
+    {
+      "file": "instructions/fround.md",
+      "formula": "FROUND.3"
+    },
+    {
+      "file": "instructions/fround.md",
+      "formula": "FROUND.4"
+    },
+    {
+      "file": "instructions/fround.md",
+      "formula": "FROUND.5"
+    },
+    {
+      "file": "instructions/fround.md",
+      "formula": "FROUND.6"
+    },
+    {
+      "file": "instructions/fround.md",
+      "formula": "FROUND.7"
+    },
+    {
+      "file": "instructions/fround.md",
+      "formula": "FROUND.8"
+    },
+    {
+      "file": "instructions/fround.md",
+      "formula": "FROUND.9"
+    },
+    {
+      "file": "instructions/fround.md",
+      "formula": "FROUND.10"
+    },
+    {
+      "file": "instructions/fround.md",
+      "formula": "FROUND.11"
+    },
+    {
+      "file": "instructions/fround.md",
+      "formula": "FROUND.12"
+    },
+    {
+      "file": "instructions/fround.md",
+      "formula": "FROUND.13"
+    },
+    {
+      "file": "instructions/fround.md",
+      "formula": "FROUND.14"
+    },
+    {
+      "file": "instructions/fround.md",
+      "formula": "FROUND.15"
+    },
+    {
+      "file": "instructions/fround.md",
+      "formula": "FROUND.16"
+    },
+    {
+      "file": "instructions/fround.md",
+      "formula": "FROUND.17"
+    },
+    {
+      "file": "instructions/fround.md",
+      "formula": "FROUND.18"
+    },
+    {
+      "file": "instructions/fround.md",
+      "formula": "FROUND.19"
+    },
+    {
+      "file": "instructions/fround.md",
+      "formula": "FROUND.20"
+    },
+    {
+      "file": "instructions/fround.md",
+      "formula": "FROUND.21"
+    },
+    {
+      "file": "instructions/fround.md",
+      "formula": "FROUND.22"
+    },
+    {
+      "file": "instructions/fround.md",
+      "formula": "FROUND.23"
+    },
+    {
+      "file": "instructions/fround.md",
+      "formula": "FROUND.24"
+    },
+    {
+      "file": "instructions/fround.md",
+      "formula": "FROUND.25"
+    },
+    {
+      "file": "instructions/fround.md",
+      "formula": "FROUND.26"
+    },
+    {
+      "file": "instructions/fround.md",
+      "formula": "FROUND.27"
+    },
+    {
+      "file": "instructions/fround.md",
+      "formula": "FROUND.28"
+    },
+    {
+      "file": "instructions/fround.md",
+      "formula": "FROUND.29"
+    },
+    {
+      "file": "instructions/fround.md",
+      "formula": "FROUND.30"
+    },
+    {
+      "file": "instructions/froundnx.md",
+      "formula": "FROUNDNX.0"
+    },
+    {
+      "file": "instructions/froundnx.md",
+      "formula": "FROUNDNX.1"
+    },
+    {
+      "file": "instructions/froundnx.md",
+      "formula": "FROUNDNX.2"
+    },
+    {
+      "file": "instructions/froundnx.md",
+      "formula": "FROUNDNX.3"
+    },
+    {
+      "file": "instructions/froundnx.md",
+      "formula": "FROUNDNX.4"
+    },
+    {
+      "file": "instructions/froundnx.md",
+      "formula": "FROUNDNX.5"
+    },
+    {
+      "file": "instructions/froundnx.md",
+      "formula": "FROUNDNX.6"
+    },
+    {
+      "file": "instructions/froundnx.md",
+      "formula": "FROUNDNX.7"
+    },
+    {
+      "file": "instructions/froundnx.md",
+      "formula": "FROUNDNX.8"
+    },
+    {
+      "file": "instructions/froundnx.md",
+      "formula": "FROUNDNX.9"
+    },
+    {
+      "file": "instructions/froundnx.md",
+      "formula": "FROUNDNX.10"
+    },
+    {
+      "file": "instructions/froundnx.md",
+      "formula": "FROUNDNX.11"
+    },
+    {
+      "file": "instructions/froundnx.md",
+      "formula": "FROUNDNX.12"
+    },
+    {
+      "file": "instructions/froundnx.md",
+      "formula": "FROUNDNX.13"
+    },
+    {
+      "file": "instructions/froundnx.md",
+      "formula": "FROUNDNX.14"
+    },
+    {
+      "file": "instructions/froundnx.md",
+      "formula": "FROUNDNX.15"
+    },
+    {
+      "file": "instructions/froundnx.md",
+      "formula": "FROUNDNX.16"
+    },
+    {
+      "file": "instructions/froundnx.md",
+      "formula": "FROUNDNX.17"
+    },
+    {
+      "file": "instructions/froundnx.md",
+      "formula": "FROUNDNX.18"
+    },
+    {
+      "file": "instructions/froundnx.md",
+      "formula": "FROUNDNX.19"
+    },
+    {
+      "file": "instructions/froundnx.md",
+      "formula": "FROUNDNX.20"
+    },
+    {
+      "file": "instructions/froundnx.md",
+      "formula": "FROUNDNX.21"
+    },
+    {
+      "file": "instructions/froundnx.md",
+      "formula": "FROUNDNX.22"
+    },
+    {
+      "file": "instructions/froundnx.md",
+      "formula": "FROUNDNX.23"
+    },
+    {
+      "file": "instructions/froundnx.md",
+      "formula": "FROUNDNX.24"
+    },
+    {
+      "file": "instructions/froundnx.md",
+      "formula": "FROUNDNX.25"
+    },
+    {
+      "file": "instructions/froundnx.md",
+      "formula": "FROUNDNX.26"
+    },
+    {
+      "file": "instructions/froundnx.md",
+      "formula": "FROUNDNX.27"
+    },
+    {
+      "file": "instructions/froundnx.md",
+      "formula": "FROUNDNX.28"
+    },
+    {
+      "file": "instructions/froundnx.md",
+      "formula": "FROUNDNX.29"
+    },
+    {
+      "file": "instructions/froundnx.md",
+      "formula": "FROUNDNX.30"
+    },
+    {
+      "file": "instructions/froundnx.md",
+      "formula": "FROUNDNX.31"
+    },
+    {
+      "file": "instructions/froundnx.md",
+      "formula": "FROUNDNX.32"
+    },
+    {
+      "file": "instructions/froundnx.md",
+      "formula": "FROUNDNX.33"
+    },
+    {
+      "file": "instructions/fsd.md",
+      "formula": "FSD.0"
+    },
+    {
+      "file": "instructions/fsd.md",
+      "formula": "FSD.1"
+    },
+    {
+      "file": "instructions/fsd.md",
+      "formula": "FSD.2"
+    },
+    {
+      "file": "instructions/fsd.md",
+      "formula": "FSD.3"
+    },
+    {
+      "file": "instructions/fsd.md",
+      "formula": "FSD.4"
+    },
+    {
+      "file": "instructions/fsd.md",
+      "formula": "FSD.5"
+    },
+    {
+      "file": "instructions/fsd.md",
+      "formula": "FSD.6"
+    },
+    {
+      "file": "instructions/fsd.md",
+      "formula": "FSD.7"
+    },
+    {
+      "file": "instructions/fsd.md",
+      "formula": "FSD.8"
+    },
+    {
+      "file": "instructions/fsd.md",
+      "formula": "FSD.9"
+    },
+    {
+      "file": "instructions/fsd.md",
+      "formula": "FSD.10"
+    },
+    {
+      "file": "instructions/fsd.md",
+      "formula": "FSD.11"
+    },
+    {
+      "file": "instructions/fsd.md",
+      "formula": "FSD.12"
+    },
+    {
+      "file": "instructions/fsd.md",
+      "formula": "FSD.13"
+    },
+    {
+      "file": "instructions/fsd.md",
+      "formula": "FSD.14"
+    },
+    {
+      "file": "instructions/fsd.md",
+      "formula": "FSD.15"
+    },
+    {
+      "file": "instructions/fsd.md",
+      "formula": "FSD.16"
+    },
+    {
+      "file": "instructions/fsd.md",
+      "formula": "FSD.17"
+    },
+    {
+      "file": "instructions/fsd.md",
+      "formula": "FSD.18"
+    },
+    {
+      "file": "instructions/fsd.md",
+      "formula": "FSD.19"
+    },
+    {
+      "file": "instructions/fsd.md",
+      "formula": "FSD.20"
+    },
+    {
+      "file": "instructions/fsd.md",
+      "formula": "FSD.21"
+    },
+    {
+      "file": "instructions/fsd.md",
+      "formula": "FSD.22"
+    },
+    {
+      "file": "instructions/fsd.md",
+      "formula": "FSD.23"
+    },
+    {
+      "file": "instructions/fsd.md",
+      "formula": "FSD.24"
+    },
+    {
+      "file": "instructions/fsgnj.md",
+      "formula": "FSGNJ.0"
+    },
+    {
+      "file": "instructions/fsgnj.md",
+      "formula": "FSGNJ.1"
+    },
+    {
+      "file": "instructions/fsgnj.md",
+      "formula": "FSGNJ.2"
+    },
+    {
+      "file": "instructions/fsgnj.md",
+      "formula": "FSGNJ.3"
+    },
+    {
+      "file": "instructions/fsgnj.md",
+      "formula": "FSGNJ.4"
+    },
+    {
+      "file": "instructions/fsgnj.md",
+      "formula": "FSGNJ.5"
+    },
+    {
+      "file": "instructions/fsgnj.md",
+      "formula": "FSGNJ.6"
+    },
+    {
+      "file": "instructions/fsgnj.md",
+      "formula": "FSGNJ.7"
+    },
+    {
+      "file": "instructions/fsgnj.md",
+      "formula": "FSGNJ.8"
+    },
+    {
+      "file": "instructions/fsgnj.md",
+      "formula": "FSGNJ.9"
+    },
+    {
+      "file": "instructions/fsgnj.md",
+      "formula": "FSGNJ.10"
+    },
+    {
+      "file": "instructions/fsgnj.md",
+      "formula": "FSGNJ.11"
+    },
+    {
+      "file": "instructions/fsgnj.md",
+      "formula": "FSGNJ.12"
+    },
+    {
+      "file": "instructions/fsgnj.md",
+      "formula": "FSGNJN.1"
+    },
+    {
+      "file": "instructions/fsgnj.md",
+      "formula": "FSGNJN.2"
+    },
+    {
+      "file": "instructions/fsgnj.md",
+      "formula": "FSGNJN.3"
+    },
+    {
+      "file": "instructions/fsgnj.md",
+      "formula": "FSGNJN.4"
+    },
+    {
+      "file": "instructions/fsgnj.md",
+      "formula": "FSGNJN.5"
+    },
+    {
+      "file": "instructions/fsgnj.md",
+      "formula": "FSGNJN.6"
+    },
+    {
+      "file": "instructions/fsgnj.md",
+      "formula": "FSGNJN.7"
+    },
+    {
+      "file": "instructions/fsgnj.md",
+      "formula": "FSGNJN.8"
+    },
+    {
+      "file": "instructions/fsgnj.md",
+      "formula": "FSGNJN.9"
+    },
+    {
+      "file": "instructions/fsgnj.md",
+      "formula": "FSGNJN.10"
+    },
+    {
+      "file": "instructions/fsgnj.md",
+      "formula": "FSGNJN.11"
+    },
+    {
+      "file": "instructions/fsgnj.md",
+      "formula": "FSGNJN.12"
+    },
+    {
+      "file": "instructions/fsgnj.md",
+      "formula": "FSGNJX.1"
+    },
+    {
+      "file": "instructions/fsgnj.md",
+      "formula": "FSGNJX.2"
+    },
+    {
+      "file": "instructions/fsgnj.md",
+      "formula": "FSGNJX.3"
+    },
+    {
+      "file": "instructions/fsgnj.md",
+      "formula": "FSGNJX.4"
+    },
+    {
+      "file": "instructions/fsgnj.md",
+      "formula": "FSGNJX.5"
+    },
+    {
+      "file": "instructions/fsgnj.md",
+      "formula": "FSGNJX.6"
+    },
+    {
+      "file": "instructions/fsgnj.md",
+      "formula": "FSGNJX.7"
+    },
+    {
+      "file": "instructions/fsgnj.md",
+      "formula": "FSGNJX.8"
+    },
+    {
+      "file": "instructions/fsgnj.md",
+      "formula": "FSGNJX.9"
+    },
+    {
+      "file": "instructions/fsgnj.md",
+      "formula": "FSGNJX.10"
+    },
+    {
+      "file": "instructions/fsgnj.md",
+      "formula": "FSGNJX.11"
+    },
+    {
+      "file": "instructions/fsgnj.md",
+      "formula": "FSGNJX.12"
+    },
+    {
+      "file": "instructions/fsh.md",
+      "formula": "FSH.0"
+    },
+    {
+      "file": "instructions/fsh.md",
+      "formula": "FSH.1"
+    },
+    {
+      "file": "instructions/fsh.md",
+      "formula": "FSH.2"
+    },
+    {
+      "file": "instructions/fsh.md",
+      "formula": "FSH.3"
+    },
+    {
+      "file": "instructions/fsh.md",
+      "formula": "FSH.4"
+    },
+    {
+      "file": "instructions/fsh.md",
+      "formula": "FSH.5"
+    },
+    {
+      "file": "instructions/fsh.md",
+      "formula": "FSH.6"
+    },
+    {
+      "file": "instructions/fsh.md",
+      "formula": "FSH.7"
+    },
+    {
+      "file": "instructions/fsh.md",
+      "formula": "FSH.8"
+    },
+    {
+      "file": "instructions/fsh.md",
+      "formula": "FSH.9"
+    },
+    {
+      "file": "instructions/fsh.md",
+      "formula": "FSH.10"
+    },
+    {
+      "file": "instructions/fsh.md",
+      "formula": "FSH.11"
+    },
+    {
+      "file": "instructions/fsh.md",
+      "formula": "FSH.12"
+    },
+    {
+      "file": "instructions/fsh.md",
+      "formula": "FSH.13"
+    },
+    {
+      "file": "instructions/fsh.md",
+      "formula": "FSH.14"
+    },
+    {
+      "file": "instructions/fsh.md",
+      "formula": "FSH.15"
+    },
+    {
+      "file": "instructions/fsh.md",
+      "formula": "FSH.16"
+    },
+    {
+      "file": "instructions/fsh.md",
+      "formula": "FSH.17"
+    },
+    {
+      "file": "instructions/fsh.md",
+      "formula": "FSH.18"
+    },
+    {
+      "file": "instructions/fsh.md",
+      "formula": "FSH.19"
+    },
+    {
+      "file": "instructions/fsh.md",
+      "formula": "FSH.20"
+    },
+    {
+      "file": "instructions/fsh.md",
+      "formula": "FSH.21"
+    },
+    {
+      "file": "instructions/fsh.md",
+      "formula": "FSH.22"
+    },
+    {
+      "file": "instructions/fsh.md",
+      "formula": "FSH.23"
+    },
+    {
+      "file": "instructions/fsh.md",
+      "formula": "FSH.24"
+    },
+    {
+      "file": "instructions/fsq.md",
+      "formula": "FSQ.0"
+    },
+    {
+      "file": "instructions/fsq.md",
+      "formula": "FSQ.1"
+    },
+    {
+      "file": "instructions/fsq.md",
+      "formula": "FSQ.2"
+    },
+    {
+      "file": "instructions/fsq.md",
+      "formula": "FSQ.3"
+    },
+    {
+      "file": "instructions/fsq.md",
+      "formula": "FSQ.4"
+    },
+    {
+      "file": "instructions/fsq.md",
+      "formula": "FSQ.5"
+    },
+    {
+      "file": "instructions/fsq.md",
+      "formula": "FSQ.6"
+    },
+    {
+      "file": "instructions/fsq.md",
+      "formula": "FSQ.7"
+    },
+    {
+      "file": "instructions/fsq.md",
+      "formula": "FSQ.8"
+    },
+    {
+      "file": "instructions/fsq.md",
+      "formula": "FSQ.9"
+    },
+    {
+      "file": "instructions/fsq.md",
+      "formula": "FSQ.10"
+    },
+    {
+      "file": "instructions/fsq.md",
+      "formula": "FSQ.11"
+    },
+    {
+      "file": "instructions/fsq.md",
+      "formula": "FSQ.12"
+    },
+    {
+      "file": "instructions/fsq.md",
+      "formula": "FSQ.13"
+    },
+    {
+      "file": "instructions/fsq.md",
+      "formula": "FSQ.14"
+    },
+    {
+      "file": "instructions/fsq.md",
+      "formula": "FSQ.15"
+    },
+    {
+      "file": "instructions/fsq.md",
+      "formula": "FSQ.16"
+    },
+    {
+      "file": "instructions/fsq.md",
+      "formula": "FSQ.17"
+    },
+    {
+      "file": "instructions/fsq.md",
+      "formula": "FSQ.18"
+    },
+    {
+      "file": "instructions/fsq.md",
+      "formula": "FSQ.19"
+    },
+    {
+      "file": "instructions/fsq.md",
+      "formula": "FSQ.20"
+    },
+    {
+      "file": "instructions/fsq.md",
+      "formula": "FSQ.21"
+    },
+    {
+      "file": "instructions/fsq.md",
+      "formula": "FSQ.22"
+    },
+    {
+      "file": "instructions/fsq.md",
+      "formula": "FSQ.23"
+    },
+    {
+      "file": "instructions/fsq.md",
+      "formula": "FSQ.24"
+    },
+    {
+      "file": "instructions/fsqrt.md",
+      "formula": "FSQRT.0"
+    },
+    {
+      "file": "instructions/fsqrt.md",
+      "formula": "FSQRT.1"
+    },
+    {
+      "file": "instructions/fsqrt.md",
+      "formula": "FSQRT.2"
+    },
+    {
+      "file": "instructions/fsqrt.md",
+      "formula": "FSQRT.3"
+    },
+    {
+      "file": "instructions/fsqrt.md",
+      "formula": "FSQRT.4"
+    },
+    {
+      "file": "instructions/fsqrt.md",
+      "formula": "FSQRT.5"
+    },
+    {
+      "file": "instructions/fsqrt.md",
+      "formula": "FSQRT.6"
+    },
+    {
+      "file": "instructions/fsqrt.md",
+      "formula": "FSQRT.7"
+    },
+    {
+      "file": "instructions/fsqrt.md",
+      "formula": "FSQRT.8"
+    },
+    {
+      "file": "instructions/fsqrt.md",
+      "formula": "FSQRT.9"
+    },
+    {
+      "file": "instructions/fsqrt.md",
+      "formula": "FSQRT.10"
+    },
+    {
+      "file": "instructions/fsqrt.md",
+      "formula": "FSQRT.11"
+    },
+    {
+      "file": "instructions/fsqrt.md",
+      "formula": "FSQRT.12"
+    },
+    {
+      "file": "instructions/fsqrt.md",
+      "formula": "FSQRT.13"
+    },
+    {
+      "file": "instructions/fsqrt.md",
+      "formula": "FSQRT.14"
+    },
+    {
+      "file": "instructions/fsqrt.md",
+      "formula": "FSQRT.15"
+    },
+    {
+      "file": "instructions/fsqrt.md",
+      "formula": "FSQRT.16"
+    },
+    {
+      "file": "instructions/fsqrt.md",
+      "formula": "FSQRT.17"
+    },
+    {
+      "file": "instructions/fsqrt.md",
+      "formula": "FSQRT.18"
+    },
+    {
+      "file": "instructions/fsqrt.md",
+      "formula": "FSQRT.19"
+    },
+    {
+      "file": "instructions/fsqrt.md",
+      "formula": "FSQRT.20"
+    },
+    {
+      "file": "instructions/fsqrt.md",
+      "formula": "FSQRT.21"
+    },
+    {
+      "file": "instructions/fsqrt.md",
+      "formula": "FSQRT.22"
+    },
+    {
+      "file": "instructions/fsqrt.md",
+      "formula": "FSQRT.23"
+    },
+    {
+      "file": "instructions/fsqrt.md",
+      "formula": "FSQRT.24"
+    },
+    {
+      "file": "instructions/fsqrt.md",
+      "formula": "FSQRT.25"
+    },
+    {
+      "file": "instructions/fsqrt.md",
+      "formula": "FSQRT.26"
+    },
+    {
+      "file": "instructions/fsqrt.md",
+      "formula": "FSQRT.27"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.0"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.1"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.2"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.3"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.4"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.5"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.6"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.7"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.8"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.9"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.10"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.11"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.12"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.13"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.14"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.15"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.16"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.17"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.18"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.19"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.20"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.21"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.22"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.23"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.24"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.25"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.26"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.27"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.28"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.29"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.30"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.31"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.32"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.33"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.34"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.35"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.36"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.37"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.38"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.39"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.40"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.41"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.42"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.43"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.44"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.45"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.46"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.47"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.48"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.49"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.50"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.51"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.52"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.53"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.54"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.55"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.56"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.57"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.58"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.59"
+    },
+    {
+      "file": "instructions/fsub.md",
+      "formula": "FSUB.60"
+    },
+    {
+      "file": "instructions/fsw.md",
+      "formula": "FSW.0"
+    },
+    {
+      "file": "instructions/fsw.md",
+      "formula": "FSW.1"
+    },
+    {
+      "file": "instructions/fsw.md",
+      "formula": "FSW.2"
+    },
+    {
+      "file": "instructions/fsw.md",
+      "formula": "FSW.3"
+    },
+    {
+      "file": "instructions/fsw.md",
+      "formula": "FSW.4"
+    },
+    {
+      "file": "instructions/fsw.md",
+      "formula": "FSW.5"
+    },
+    {
+      "file": "instructions/fsw.md",
+      "formula": "FSW.6"
+    },
+    {
+      "file": "instructions/fsw.md",
+      "formula": "FSW.7"
+    },
+    {
+      "file": "instructions/fsw.md",
+      "formula": "FSW.8"
+    },
+    {
+      "file": "instructions/fsw.md",
+      "formula": "FSW.9"
+    },
+    {
+      "file": "instructions/fsw.md",
+      "formula": "FSW.10"
+    },
+    {
+      "file": "instructions/fsw.md",
+      "formula": "FSW.11"
+    },
+    {
+      "file": "instructions/fsw.md",
+      "formula": "FSW.12"
+    },
+    {
+      "file": "instructions/fsw.md",
+      "formula": "FSW.13"
+    },
+    {
+      "file": "instructions/fsw.md",
+      "formula": "FSW.14"
+    },
+    {
+      "file": "instructions/fsw.md",
+      "formula": "FSW.15"
+    },
+    {
+      "file": "instructions/fsw.md",
+      "formula": "FSW.16"
+    },
+    {
+      "file": "instructions/fsw.md",
+      "formula": "FSW.17"
+    },
+    {
+      "file": "instructions/fsw.md",
+      "formula": "FSW.18"
+    },
+    {
+      "file": "instructions/fsw.md",
+      "formula": "FSW.19"
+    },
+    {
+      "file": "instructions/fsw.md",
+      "formula": "FSW.20"
+    },
+    {
+      "file": "instructions/fsw.md",
+      "formula": "FSW.21"
+    },
+    {
+      "file": "instructions/fsw.md",
+      "formula": "FSW.22"
+    },
+    {
+      "file": "instructions/fsw.md",
+      "formula": "FSW.23"
+    },
+    {
+      "file": "instructions/fsw.md",
+      "formula": "FSW.24"
+    },
+    {
+      "file": "instructions/zfinx.md",
+      "formula": "Z.0"
+    },
+    {
+      "file": "instructions/zfinx.md",
+      "formula": "Z.1"
+    },
+    {
+      "file": "instructions/zfinx.md",
+      "formula": "Z.2"
+    },
+    {
+      "file": "instructions/zfinx.md",
+      "formula": "Z.3"
+    },
+    {
+      "file": "instructions/zfinx.md",
+      "formula": "Z.4"
+    },
+    {
+      "file": "instructions/zfinx.md",
+      "formula": "Z.5"
+    },
+    {
+      "file": "instructions/zfinx.md",
+      "formula": "Z.6"
+    },
+    {
+      "file": "instructions/zfinx.md",
+      "formula": "Z.7"
+    },
+    {
+      "file": "instructions/zfinx.md",
+      "formula": "Z.8"
+    },
+    {
+      "file": "instructions/zfinx.md",
+      "formula": "Z.9"
+    },
+    {
+      "file": "instructions/zfinx.md",
+      "formula": "Z.10"
+    }
+  ]
+}

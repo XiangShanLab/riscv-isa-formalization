@@ -1,0 +1,35 @@
+error: Failed to install hook `forbid-tabs`
+  caused by: Command `/nfs/home/pushaoyong/tmp/bin/uv pip install --project / --directory /nfs/home/pushaoyong/tmp/act4-fma-prek/repos/c5108aaecd579bfe .` exited with an error:
+
+[status]
+exit status: 1
+
+[stderr]
+Using Python 3.15.2 environment at: /nfs/home/pushaoyong/tmp/act4-fma-prek/hooks/python-I3cTc5zh7udTP9wN5a3h
+error: The build backend returned an error
+cause: Call to `setuptools.build_meta:__legacy__.prepare_metadata_for_build_wheel` failed (exit status: 1)
+[stdout]
+running dist_info
+creating /nfs/home/pushaoyong/tmp/act4-fma-prek/cache/uv/builds-v0/.tmpGjYsPE/metadata_directory/pre_commit_hooks.egg-info
+writing /nfs/home/pushaoyong/tmp/act4-fma-prek/cache/uv/builds-v0/.tmpGjYsPE/metadata_directory/pre_commit_hooks.egg-info/PKG-INFO
+writing dependency_links to /nfs/home/pushaoyong/tmp/act4-fma-prek/cache/uv/builds-v0/.tmpGjYsPE/metadata_directory/pre_commit_hooks.egg-info/dependency_links.txt
+writing entry points to /nfs/home/pushaoyong/tmp/act4-fma-prek/cache/uv/builds-v0/.tmpGjYsPE/metadata_directory/pre_commit_hooks.egg-info/entry_points.txt
+writing requirements to /nfs/home/pushaoyong/tmp/act4-fma-prek/cache/uv/builds-v0/.tmpGjYsPE/metadata_directory/pre_commit_hooks.egg-info/requires.txt
+writing top-level names to /nfs/home/pushaoyong/tmp/act4-fma-prek/cache/uv/builds-v0/.tmpGjYsPE/metadata_directory/pre_commit_hooks.egg-info/top_level.txt
+writing manifest file '/nfs/home/pushaoyong/tmp/act4-fma-prek/cache/uv/builds-v0/.tmpGjYsPE/metadata_directory/pre_commit_hooks.egg-info/SOURCES.txt'
+reading manifest file '/nfs/home/pushaoyong/tmp/act4-fma-prek/cache/uv/builds-v0/.tmpGjYsPE/metadata_directory/pre_commit_hooks.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '/nfs/home/pushaoyong/tmp/act4-fma-prek/cache/uv/builds-v0/.tmpGjYsPE/metadata_directory/pre_commit_hooks.egg-info/SOURCES.txt'
+creating '/nfs/home/pushaoyong/tmp/act4-fma-prek/cache/uv/builds-v0/.tmpGjYsPE/metadata_directory/pre_commit_hooks-1.5.6.dist-info'
+[stderr]
+/nfs/home/pushaoyong/tmp/act4-fma-prek/cache/uv/builds-v0/.tmpGjYsPE/lib/python3.15/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+!!
+********************************************************************************
+Please consider removing the following classifiers in favor of a SPDX license expression:
+License :: OSI Approved :: MIT License
+See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+********************************************************************************
+!!
+self._finalize_license_expression()
+error: [Errno 39] Directory not empty: '/nfs/home/pushaoyong/tmp/act4-fma-prek/cache/uv/builds-v0/.tmpGjYsPE/metadata_directory/pre_commit_hooks.egg-info'
+

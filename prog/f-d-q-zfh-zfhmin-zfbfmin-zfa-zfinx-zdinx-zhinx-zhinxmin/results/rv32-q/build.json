@@ -1,0 +1,19 @@
+{
+  "command": [
+    "/nfs/home/pushaoyong/opt/riscv-toolchain/bin/riscv64-unknown-elf-gcc",
+    "-march=rv32imafd_zicsr",
+    "-mabi=ilp32",
+    "-nostdlib",
+    "-nostartfiles",
+    "-Wl,--no-relax",
+    "-T",
+    "/nfs/home/pushaoyong/xs-work/formalization/prog/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/link.ld",
+    "/nfs/home/pushaoyong/xs-work/formalization/prog/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/generated/rv32-q/suite.S",
+    "-o",
+    "/nfs/home/pushaoyong/xs-work/formalization/prog/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/build/rv32-q/suite.elf"
+  ],
+  "returncode": 0,
+  "seconds": 1.948,
+  "stdout": "",
+  "stderr": "/nfs/home/pushaoyong/opt/riscv-toolchain/riscv64-unknown-elf/bin/ld: warning: /nfs/home/pushaoyong/xs-work/formalization/prog/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/build/rv32-q/suite.elf has a LOAD segment with RWX permissions\n"
+}

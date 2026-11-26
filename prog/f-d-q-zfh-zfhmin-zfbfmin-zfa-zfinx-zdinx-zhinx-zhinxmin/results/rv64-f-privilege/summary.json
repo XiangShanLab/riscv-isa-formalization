@@ -1,0 +1,20 @@
+{
+  "profile": "rv64-f-privilege",
+  "cases": 45,
+  "models": {
+    "spike": {
+      "returncode": 0,
+      "checked": 45,
+      "gate_differences": [],
+      "harness_errors": []
+    },
+    "sail": {
+      "returncode": 0,
+      "checked": 45,
+      "gate_differences": [],
+      "harness_errors": []
+    }
+  },
+  "paired": 45,
+  "differences": []
+}

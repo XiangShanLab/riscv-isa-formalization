@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/nfs/home/pushaoyong/projects/testkit4rv/builtin/sail/sail_riscv_sim",
+    "--config",
+    "/nfs/home/pushaoyong/xs-work/formalization/prog/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/configs/rv64-f-lhs.json",
+    "--inst-limit",
+    "5000000",
+    "--test-signature",
+    "/nfs/home/pushaoyong/xs-work/formalization/prog/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/results/rv64-f-lhs/sail.sig",
+    "--signature-granularity",
+    "4",
+    "/nfs/home/pushaoyong/xs-work/formalization/prog/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/build/rv64-f-lhs/suite.elf"
+  ],
+  "returncode": 0,
+  "seconds": 171.708,
+  "stdout": "HTIF located at 0x80072e40\nbegin_signature: 0x80072e80\nend_signature: 0x80090f80\nEntry point: 0x80000000\n",
+  "stderr": "using /nfs/home/pushaoyong/xs-work/formalization/prog/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/results/rv64-f-lhs/sail.sig for test-signature output.\n"
+}

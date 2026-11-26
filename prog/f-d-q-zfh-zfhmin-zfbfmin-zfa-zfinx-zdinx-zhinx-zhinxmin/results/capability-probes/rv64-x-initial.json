@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/nfs/home/pushaoyong/projects/testkit4rv/builtin/sail/sail_riscv_sim",
+    "--config",
+    "/nfs/home/pushaoyong/xs-work/formalization/prog/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/configs/rv64-x.json",
+    "--inst-limit",
+    "20000000",
+    "--test-signature",
+    "/nfs/home/pushaoyong/xs-work/formalization/prog/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/results/rv64-x/sail.sig",
+    "--signature-granularity",
+    "4",
+    "/nfs/home/pushaoyong/xs-work/formalization/prog/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/build/rv64-x/suite.elf"
+  ],
+  "returncode": 1,
+  "seconds": 0.595,
+  "stdout": "HTIF located at 0x80472b40\nbegin_signature: 0x80472b80\nend_signature: 0x805dfb80\nEntry point: 0x80000000\n",
+  "stderr": "using /nfs/home/pushaoyong/xs-work/formalization/prog/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/results/rv64-x/sail.sig for test-signature output.\nAssertion failed: extensions/FD/fdext_regs.sail:291.19-291.20\n"
+}

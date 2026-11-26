@@ -1,0 +1,23 @@
+check_added_large_files PASS
+check_case_conflict PASS
+check_docstring_first PASS
+check_executables_have_shebangs PASS
+check_shebang_scripts_are_executable PASS
+check_symlinks PASS
+end_of_file_fixer PASS
+mixed_line_ending PASS
+trailing_whitespace_fixer PASS
+check_merge_conflict PASS
+check_yaml PASS
+All checks passed!
+.venv/bin/ruff PASS
+6 files already formatted
+.venv/bin/ruff PASS
+0 errors, 0 warnings, 0 informations
+/nfs/home/pushaoyong/tmp/act4-fma-commit/.venv/bin/python PASS
+bash PASS
+Checking formatting...
+All matched files use Prettier code style!
+node PASS
+/nfs/home/pushaoyong/tmp/act4-fma-commit/.venv/bin/python PASS
+/nfs/home/pushaoyong/tmp/act4-fma-prek-312/hooks/python-dX9wbOdy8Y0wSyidVA1B/bin/python PASS

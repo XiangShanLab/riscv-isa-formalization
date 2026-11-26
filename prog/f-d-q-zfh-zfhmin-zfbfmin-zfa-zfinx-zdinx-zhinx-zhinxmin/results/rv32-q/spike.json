@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/nfs/home/pushaoyong/opt/spike/bin/spike",
+    "--isa=rv32imafdq_zicsr_zfh_zfhmin_zfbfmin_zfa",
+    "-m128",
+    "+signature=/nfs/home/pushaoyong/xs-work/formalization/prog/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/results/rv32-q/spike.sig",
+    "+signature-granularity=4",
+    "/nfs/home/pushaoyong/xs-work/formalization/prog/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/build/rv32-q/suite.elf"
+  ],
+  "returncode": 0,
+  "seconds": 0.159,
+  "stdout": "",
+  "stderr": ""
+}

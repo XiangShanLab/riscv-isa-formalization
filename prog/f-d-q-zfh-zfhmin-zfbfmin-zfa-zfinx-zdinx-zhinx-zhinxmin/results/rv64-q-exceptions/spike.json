@@ -1,0 +1,14 @@
+{
+  "command": [
+    "spike",
+    "--isa=rv64imafdq_zicsr",
+    "-m128",
+    "+signature=/nfs/home/pushaoyong/xs-work/formalization/prog/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/results/rv64-q-exceptions/spike.sig",
+    "+signature-granularity=4",
+    "/nfs/home/pushaoyong/xs-work/formalization/prog/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/build/rv64-q-exceptions/suite.elf"
+  ],
+  "returncode": 0,
+  "seconds": 0.01,
+  "stdout": "",
+  "stderr": ""
+}

@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-24",
+  "act4_path": "/nfs/home/pushaoyong/xs-work/riscv-arch-test",
+  "act4_commit": "95ca74cb2dbadba39452cbe9b11b619b83b177a3",
+  "act4_tracked_changes": [],
+  "sha256": {
+    "/nfs/home/pushaoyong/xs-work/formalization/prog/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/generate.py": "d4edee0da974f1b88b680e595cc003d32dbbdb0974196b7927ed43f929314d93",
+    "/nfs/home/pushaoyong/xs-work/formalization/prog/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/generated/rv32-f/cases.json": "71d8f2d8a158459d212a40e4cfdfeabd1733d5e7dc3dda2ac736b3a246556aa2",
+    "/nfs/home/pushaoyong/xs-work/formalization/prog/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/generated/rv64-f/cases.json": "440082d4919dff1e70fbbf867bedc9a6c06edaf688b0dc65406f095609ac00b7",
+    "/nfs/home/pushaoyong/xs-work/riscv-arch-test/generators/testgen/src/testgen/data/edges.py": "46cf6888d6df319b1055ef228d094ea467b0b29be0d4bb2c394b8c9b8eb6bd42",
+    "/nfs/home/pushaoyong/xs-work/formalization/reports/act4-operands-2026-11-24/compare.py": "9d919957347fafbec32a5a5b862ab48a5845a65fd974527d5f96663ae4367d02"
+  },
+  "follow_up": "2026-11-24 same day: the gaps in this report were closed in generate.py, the profiles were regenerated and re-run; these hashes are the post-change generator, case lists and comparison script"
+}

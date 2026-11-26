@@ -1,0 +1,12 @@
+{
+  "fcvt_s_w": {
+    "act4_general_edges": 12,
+    "checked_absent": [],
+    "actual_inputs": 18
+  },
+  "fcvt_s_l": {
+    "act4_general_edges": 18,
+    "checked_absent": [],
+    "actual_inputs": 27
+  }
+}

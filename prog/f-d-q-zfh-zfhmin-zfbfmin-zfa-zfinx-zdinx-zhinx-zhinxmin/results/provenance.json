@@ -1,0 +1,14 @@
+{
+  "encoding_source": "/nfs/home/pushaoyong/xs-work/spike/riscv/encoding.h",
+  "encoding_source_sha256": "912ad18df640135a89bdb9f2096eecb5b60cf65fc19056a3e28dbcb23df73894",
+  "variable_fields": "rd/rs1/rs2/rm/rs3 assigned by generator; variable rs2 overwrites any baseline bits",
+  "sail_source_path": "/nfs/home/pushaoyong/projects/testkit4rv/.build/sail-src",
+  "sail_local_patches": [
+    "sail-aia.patch",
+    "sail-nemu-trap.patch",
+    "sail-project-wiring.patch",
+    "sail-smrnmi.patch",
+    "sail-stateen-context.patch",
+    "sail-xiangshan-board.patch"
+  ]
+}
