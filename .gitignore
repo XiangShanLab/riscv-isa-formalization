@@ -1,23 +1,6 @@
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
 
-# Generated test suites, ELFs, model signatures and transcripts (hundreds of MB).
-# Keep the pipeline sources and the small per-run summaries.
-prog/**/build/
-prog/**/generated/**
-!prog/**/generated/formula-inventory.json
-!prog/**/generated/profiles.json
-prog/**/results/**/*.sig
-prog/**/results/**/*.jsonl
-prog/**/results/**/symbols.txt
-
-# Raw ACT4 operand dump (35 MB); the report and the small tables are tracked.
-reports/act4-operands-2026-11-24/operand-differences.csv
-
-# Local packaging snapshots
-dist/
-*.tar.gz
-
-# Editor/OS noise
+# Editor / OS noise
 .DS_Store

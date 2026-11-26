@@ -1,7 +1,7 @@
 # RISC-V 标量浮点形式化（中文译本）
 
 > 本文件是
-> [`specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/README.md`](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/README.md)
+> [`README.md`](README.md)
 > 的中文译本，供阅读使用；英文原文为准。产出目录本身保持英文，本译本不属于交付内容。
 
 本目录形式化 RISC-V 指令集手册中标量浮点的全部内容：第 21 章（`F`）、第 22 章（`D`）、
@@ -690,69 +690,69 @@ $$
 
 | 文件 | 助记符 | 格式 | 状态 |
 |---|---|---|---|
-| [fadd.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/fadd.md) | `FADD` | H、S、D、Q | 完成 |
-| [fsub.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/fsub.md) | `FSUB` | H、S、D、Q | 完成 |
-| [fmul.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/fmul.md) | `FMUL` | H、S、D、Q | 完成 |
-| [fdiv.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/fdiv.md) | `FDIV` | H、S、D、Q | 完成 |
-| [fsqrt.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/fsqrt.md) | `FSQRT` | H、S、D、Q | 完成 |
-| [fmadd.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/fmadd.md) | `FMADD` | H、S、D、Q | 完成 |
-| [fmsub.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/fmsub.md) | `FMSUB` | H、S、D、Q | 完成 |
-| [fnmsub.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/fnmsub.md) | `FNMSUB` | H、S、D、Q | 完成 |
-| [fnmadd.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/fnmadd.md) | `FNMADD` | H、S、D、Q | 完成 |
+| [fadd.md](instructions/fadd.md) | `FADD` | H、S、D、Q | 完成 |
+| [fsub.md](instructions/fsub.md) | `FSUB` | H、S、D、Q | 完成 |
+| [fmul.md](instructions/fmul.md) | `FMUL` | H、S、D、Q | 完成 |
+| [fdiv.md](instructions/fdiv.md) | `FDIV` | H、S、D、Q | 完成 |
+| [fsqrt.md](instructions/fsqrt.md) | `FSQRT` | H、S、D、Q | 完成 |
+| [fmadd.md](instructions/fmadd.md) | `FMADD` | H、S、D、Q | 完成 |
+| [fmsub.md](instructions/fmsub.md) | `FMSUB` | H、S、D、Q | 完成 |
+| [fnmsub.md](instructions/fnmsub.md) | `FNMSUB` | H、S、D、Q | 完成 |
+| [fnmadd.md](instructions/fnmadd.md) | `FNMADD` | H、S、D、Q | 完成 |
 
 ### 最小/最大、符号、比较、分类
 
 | 文件 | 助记符 | 格式 | 状态 |
 |---|---|---|---|
-| [fmin.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/fmin.md) | `FMIN` | H、S、D、Q | 完成 |
-| [fmax.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/fmax.md) | `FMAX` | H、S、D、Q | 完成 |
-| [fminm.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/fminm.md) | `FMINM` | H、S、D、Q | 完成 |
-| [fmaxm.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/fmaxm.md) | `FMAXM` | H、S、D、Q | 完成 |
-| [fsgnj.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/fsgnj.md) | `FSGNJ`、`FSGNJN`、`FSGNJX` | H、S、D、Q | 完成 |
-| [feq.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/feq.md) | `FEQ` | H、S、D、Q | 完成 |
-| [flt.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/flt.md) | `FLT` | H、S、D、Q | 完成 |
-| [fle.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/fle.md) | `FLE` | H、S、D、Q | 完成 |
-| [fleq.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/fleq.md) | `FLEQ` | H、S、D、Q | 完成 |
-| [fltq.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/fltq.md) | `FLTQ` | H、S、D、Q | 完成 |
-| [fclass.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/fclass.md) | `FCLASS` | H、S、D、Q | 完成 |
+| [fmin.md](instructions/fmin.md) | `FMIN` | H、S、D、Q | 完成 |
+| [fmax.md](instructions/fmax.md) | `FMAX` | H、S、D、Q | 完成 |
+| [fminm.md](instructions/fminm.md) | `FMINM` | H、S、D、Q | 完成 |
+| [fmaxm.md](instructions/fmaxm.md) | `FMAXM` | H、S、D、Q | 完成 |
+| [fsgnj.md](instructions/fsgnj.md) | `FSGNJ`、`FSGNJN`、`FSGNJX` | H、S、D、Q | 完成 |
+| [feq.md](instructions/feq.md) | `FEQ` | H、S、D、Q | 完成 |
+| [flt.md](instructions/flt.md) | `FLT` | H、S、D、Q | 完成 |
+| [fle.md](instructions/fle.md) | `FLE` | H、S、D、Q | 完成 |
+| [fleq.md](instructions/fleq.md) | `FLEQ` | H、S、D、Q | 完成 |
+| [fltq.md](instructions/fltq.md) | `FLTQ` | H、S、D、Q | 完成 |
+| [fclass.md](instructions/fclass.md) | `FCLASS` | H、S、D、Q | 完成 |
 
 ### 转换
 
 | 文件 | 助记符 | 格式 | 状态 |
 |---|---|---|---|
-| [fcvt-to-int.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/fcvt-to-int.md) | `FCVT.W`、`FCVT.WU`、`FCVT.L`、`FCVT.LU` | H、S、D、Q | 完成 |
-| [fcvt-from-int.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/fcvt-from-int.md) | `FCVT.F.W`、`FCVT.F.WU`、`FCVT.F.L`、`FCVT.F.LU` | H、S、D、Q | 完成 |
-| [fcvt-fp-fp.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/fcvt-fp-fp.md) | `FCVT.dst.src` | H、S、D、Q | 完成 |
-| [fround.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/fround.md) | `FROUND` | H、S、D、Q | 完成 |
-| [froundnx.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/froundnx.md) | `FROUNDNX` | H、S、D、Q | 完成 |
-| [fcvttmod.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/fcvttmod.md) | `FCVTMOD.W.D` | D | 完成 |
-| [bf16.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/bf16.md) | `FCVT.BF16.S`、`FCVT.S.BF16` | BF16 | 完成 |
+| [fcvt-to-int.md](instructions/fcvt-to-int.md) | `FCVT.W`、`FCVT.WU`、`FCVT.L`、`FCVT.LU` | H、S、D、Q | 完成 |
+| [fcvt-from-int.md](instructions/fcvt-from-int.md) | `FCVT.F.W`、`FCVT.F.WU`、`FCVT.F.L`、`FCVT.F.LU` | H、S、D、Q | 完成 |
+| [fcvt-fp-fp.md](instructions/fcvt-fp-fp.md) | `FCVT.dst.src` | H、S、D、Q | 完成 |
+| [fround.md](instructions/fround.md) | `FROUND` | H、S、D、Q | 完成 |
+| [froundnx.md](instructions/froundnx.md) | `FROUNDNX` | H、S、D、Q | 完成 |
+| [fcvttmod.md](instructions/fcvttmod.md) | `FCVTMOD.W.D` | D | 完成 |
+| [bf16.md](instructions/bf16.md) | `FCVT.BF16.S`、`FCVT.S.BF16` | BF16 | 完成 |
 
 ### 传送、取数、存数、CSR
 
 | 文件 | 助记符 | 格式 | 状态 |
 |---|---|---|---|
-| [fmv-w.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/fmv-w.md) | `FMV.X.W`、`FMV.W.X` | S | 完成 |
-| [fmv-d.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/fmv-d.md) | `FMV.X.D`、`FMV.D.X` | D | 完成 |
-| [fmv-h.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/fmv-h.md) | `FMV.X.H`、`FMV.H.X` | H | 完成 |
-| [fmvh.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/fmvh.md) | `FMVH.X.D`、`FMVH.X.Q` | D、Q | 完成 |
-| [fmvp.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/fmvp.md) | `FMVP.D.X`、`FMVP.Q.X` | D、Q | 完成 |
-| [fli.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/fli.md) | `FLI` | H、S、D、Q | 完成 |
-| [flw.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/flw.md) | `FLW` | S | 完成 |
-| [fld.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/fld.md) | `FLD` | D | 完成 |
-| [flq.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/flq.md) | `FLQ` | Q | 完成 |
-| [flh.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/flh.md) | `FLH` | H | 完成 |
-| [fsw.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/fsw.md) | `FSW` | S | 完成 |
-| [fsd.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/fsd.md) | `FSD` | D | 完成 |
-| [fsq.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/fsq.md) | `FSQ` | Q | 完成 |
-| [fsh.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/fsh.md) | `FSH` | H | 完成 |
-| [fcsr.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/fcsr.md) | `FRCSR`、`FSCSR`、`FRRM`、`FSRM`、`FRFLAGS`、`FSFLAGS` | — | 完成 |
+| [fmv-w.md](instructions/fmv-w.md) | `FMV.X.W`、`FMV.W.X` | S | 完成 |
+| [fmv-d.md](instructions/fmv-d.md) | `FMV.X.D`、`FMV.D.X` | D | 完成 |
+| [fmv-h.md](instructions/fmv-h.md) | `FMV.X.H`、`FMV.H.X` | H | 完成 |
+| [fmvh.md](instructions/fmvh.md) | `FMVH.X.D`、`FMVH.X.Q` | D、Q | 完成 |
+| [fmvp.md](instructions/fmvp.md) | `FMVP.D.X`、`FMVP.Q.X` | D、Q | 完成 |
+| [fli.md](instructions/fli.md) | `FLI` | H、S、D、Q | 完成 |
+| [flw.md](instructions/flw.md) | `FLW` | S | 完成 |
+| [fld.md](instructions/fld.md) | `FLD` | D | 完成 |
+| [flq.md](instructions/flq.md) | `FLQ` | Q | 完成 |
+| [flh.md](instructions/flh.md) | `FLH` | H | 完成 |
+| [fsw.md](instructions/fsw.md) | `FSW` | S | 完成 |
+| [fsd.md](instructions/fsd.md) | `FSD` | D | 完成 |
+| [fsq.md](instructions/fsq.md) | `FSQ` | Q | 完成 |
+| [fsh.md](instructions/fsh.md) | `FSH` | H | 完成 |
+| [fcsr.md](instructions/fcsr.md) | `FRCSR`、`FSCSR`、`FRRM`、`FSRM`、`FRFLAGS`、`FSFLAGS` | — | 完成 |
 
 ### 整数寄存器形式
 
 | 文件 | 助记符 | 格式 | 状态 |
 |---|---|---|---|
-| [zfinx.md](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/instructions/zfinx.md) | x 寄存器上的整套标量浮点指令 | S、D、H | 完成 |
+| [zfinx.md](instructions/zfinx.md) | x 寄存器上的整套标量浮点指令 | S、D、H | 完成 |
 
 ## 9. 校验
 

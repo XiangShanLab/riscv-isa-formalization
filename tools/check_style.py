@@ -9,19 +9,29 @@ Each such block must:
   - separate the two sides with `\\longrightarrow`;
   - write the right side as `\\{\\, ... \\,\\}`;
   - list `\\mathrm{exception}=` as the last right-hand field;
-  - set flags with `\\mathrel{|}=`, never `=`;
+  - set known sticky flags with `\\mathrel{|}=`, never `=`;
   - avoid `\\wedge`/`\\vee` and hardware bit-pattern literals.
 
 Blocks without `\\mathrm{instr}` are definitions or standalone value
 blocks and are skipped.
 
-Usage: python3 -I check_style.py <file.md>
+Usage: python3 -I check_style.py <file.md> [--sticky-flag NAME ...]
 Exit code 0 if no issue, 1 otherwise.
 """
+import argparse
 import re
 import sys
 
-path = sys.argv[1]
+DEFAULT_STICKY_FLAGS = ('fcsr.fflags', 'vxsat')
+
+parser = argparse.ArgumentParser(description='Check result-formula style.')
+parser.add_argument('path', help='Markdown file to check')
+parser.add_argument('--sticky-flag', action='append', default=[], metavar='NAME',
+                    help='extra sticky-state name (e.g. fcsr.fflags); repeatable')
+args = parser.parse_args()
+sticky_flags = DEFAULT_STICKY_FLAGS + tuple(args.sticky_flag)
+
+path = args.path
 lines = open(path, encoding='utf-8').read().split('\n')
 
 issues = []
@@ -117,10 +127,13 @@ while i < len(lines):
         if bad:
             issues.append((end, 'exception is not the last field', right[pos:][:60]))
 
-    if r'\mathrm{fcsr.fflags}' in right:
-        for m in re.finditer(r'\\mathrm\{fcsr\.fflags\}(.{0,16})', right):
-            if r'\mathrel{|}=' not in m.group(1):
-                issues.append((end, 'flags not sticky (use \\mathrel{|}=)', m.group(1)[:40]))
+    for flag in sticky_flags:
+        if r'\mathrm{' + flag + '}' in right:
+            pattern = r'\\mathrm\{' + re.escape(flag) + r'\}(.{0,16})'
+            for m in re.finditer(pattern, right):
+                if r'\mathrel{|}=' not in m.group(1):
+                    issues.append((end, 'sticky flag not set with \\mathrel{|}=: ' + flag,
+                                   m.group(1)[:40]))
 
     joined = '\n'.join(body)
     for bad in (r'\wedge', r'\vee'):

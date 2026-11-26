@@ -1,39 +1,75 @@
+English | [中文](README.zh.md)
+
 # RISC-V ISA Formalization
 
-Formal, configuration-indexed specifications of RISC-V instructions. Every instruction is written
-as a set of formulas of the shape
+A framework for writing **configuration-indexed formal specifications** of RISC-V instructions,
+together with the specifications produced with it. The repository is organized around the method,
+not around any one instruction family: `specs/` contains instances, and a new extension family is
+added as another instance.
+
+Every instruction is written as a set of formulas of the shape
 
 $$
-\text{privilege configuration} \ \land\ \text{extension} \ \land\ \text{status fields} \ \land\ \text{operands} \ \land\ \mathrm{instr}=I
-\ \longrightarrow\ \text{results},
+\begin{aligned}
+&\text{privilege configuration}\ \land\ \text{extension conditions}\\
+&\land\ \text{status fields}\\
+&\land\ \text{operands}\\
+&\land\ (\mathrm{instr}=I)
+\end{aligned}
+\longrightarrow
+\{\, \text{state changes},\ \mathrm{exception}=\{\ldots\} \,\}
 $$
 
-where the right-hand side is the set of state changes (registers, memory, CSRs) and exceptions the
-instruction produces for that configuration. Different outcomes get different formulas.
+The left-hand side is the execution configuration that makes a particular behavior applicable;
+the right-hand side is the resulting register, memory, CSR and flag update, plus the exceptions the
+instruction can raise. Different outcomes get different formulas, numbered in evaluation order;
+formula `.0` is always the guard for an unavailable extension or a forbidden execution
+configuration.
 
-## Deliverables
+## Framework components
 
-| Directory | Scope | Files | Formulas |
-|---|---|---|---|
-| `specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/` | Scalar floating point: `F`, `D`, `Q`, `Zfh`, `Zfhmin`, `Zfbfmin`, `Zfa`, `Zfinx`, `Zdinx`, `Zhinx`, `Zhinxmin` | 43 | 1504 |
-| `specs/v-zvfh-zvfhmin-zvfbfmin-zvfbfwma/` | Vector floating point (`V` with `Zvfh`, `Zvfhmin`, `Zvfbfmin`, `Zvfbfwma`) | 34 | 193 |
-| `specs/h-svinval/` | H-extension `HLV`/`HSV`/`HLVX`, `HFENCE.VVMA`/`HFENCE.GVMA`, and Svinval `HINVAL.VVMA`/`HINVAL.GVMA` | 5 | 45 |
+| Component | Role |
+|---|---|
+| [`workflow.md`](workflow.md) | The method: formula anatomy, the four left-hand groups, the right-hand side, the authoring process, and how to substitute a non-floating-point family (§11) |
+| [`templates/`](templates/README.md) | Delivery-README and instruction-file skeletons with placeholder conventions |
+| [`specs/`](specs/README.md) | Published instances (see below) |
+| [`tools/`](tools/README.md) | Structural and style checkers shared by every instance |
+| [`sources/`](sources/README.md) | The ISA manuals the instances cite, as PDF and plain-text extraction |
+| [`CONTRIBUTING.md`](CONTRIBUTING.md) | Scope, authoring steps, writing rules, validation and review checklist |
 
-Each delivery directory contains a `README.md` with the shared definitions (formula shape, symbol
-table, conventions, exceptions, instruction index) and an `instructions/` directory with one file
-per mnemonic group. Read the delivery README first; it makes the instruction files self-contained.
+## Published instances
 
-## Layout
+| Instance | Scope |
+|---|---|
+| [`specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/`](specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/README.md) | Scalar floating point: `F`, `D`, `Q`, `Zfh`, `Zfhmin`, `Zfbfmin`, `Zfa`, `Zfinx`, `Zdinx`, `Zhinx`, `Zhinxmin` |
+| [`specs/v-zvfh-zvfhmin-zvfbfmin-zvfbfwma/`](specs/v-zvfh-zvfhmin-zvfbfmin-zvfbfwma/README.md) | Vector floating point with `Zvfh`, `Zvfhmin`, `Zvfbfmin`, `Zvfbfwma` |
+| [`specs/h-svinval/`](specs/h-svinval/README.md) | H-extension `HLV`/`HSV`/`HLVX`, `HFENCE.VVMA`/`HFENCE.GVMA`, Svinval `HINVAL.VVMA`/`HINVAL.GVMA` |
 
-```
-.
-├── specs/             # deliverables (table above)
-├── sources/           # ISA manuals: PDFs and plain-text extractions
-├── tools/             # formula structure and style checkers
-├── workflow.md        # how a family is derived from the manuals, with a worked FADD example
-├── README-fp-zh.md    # Chinese translation of the scalar delivery README (reading aid only)
-└── README.md          # this file
-```
+[`specs/README.md`](specs/README.md) is the instance index: scopes, source chapters, file and
+formula counts, and the conventions every instance shares.
+
+## Start a new instance
+
+1. Read [`workflow.md`](workflow.md) for the method and [`CONTRIBUTING.md`](CONTRIBUTING.md) for
+   the working agreement. For a non-floating-point family, start from §11 of the workflow.
+2. Locate the normative text in `sources/*.txt`; do not add rules from memory.
+3. Copy the skeletons from [`templates/`](templates/README.md) and replace every `{{…}}`
+   placeholder.
+4. Write the delivery README first — symbols, formats, value classes, state writes, exception
+   priorities — then one instruction file per mnemonic group.
+5. Run both checkers on every touched file and add the instance to
+   [`specs/README.md`](specs/README.md).
+
+## Shared conventions
+
+- One display `aligned` block per formula, at most one top-level `\land` per line.
+- Left-hand groups in a fixed order, `\mathrm{instr}=…` last.
+- Right-hand order: destination → state writes → sticky flags → `exception` last.
+- Formula `.0` is the guard and writes nothing.
+- All shared definitions (symbols, formats, value classes, exception priorities) live in the
+  instance README; instruction files contain result formulas only.
+- Results are domain-canonical values or classes, never hardware bit patterns.
+- Sticky state is updated with `\mathrel{|}=`.
 
 ## Validation
 
@@ -45,20 +81,20 @@ find specs -name '*.md' -exec python3 -I tools/check_style.py {} \;
 ```
 
 `check_md.py` checks formula delimiters, environment balance, table column counts, and inline-math
-delimiters. `check_style.py` checks the formula style: one top-level `\land` per line, `\mathrm{instr}`
-last on the left, right-hand side ending in `\mathrm{exception}`, sticky flag updates, and no
-`\wedge`/`\vee` or bit-literal results.
+delimiters. `check_style.py` checks the formula style: one top-level `\land` per line,
+`\mathrm{instr}` last on the left, right-hand side ending in `\mathrm{exception}`, sticky-flag
+updates, and no `\wedge`/`\vee` or bit-literal results.
 
-## Sources
+## Sources and citation
 
-The deliverables cite the two manuals by line number, e.g.
-`sources/riscv-unprivileged.txt:18374`. Both PDFs are RISC-V International publications released
-under CC BY 4.0; the `.txt` files are the plain-text extractions those line numbers refer to. See
-`sources/README.md` for details.
+The instances cite the two RISC-V manuals by line number, e.g.
+`sources/riscv-unprivileged.txt:18374`. Both PDFs are publications of RISC-V International,
+released under CC BY 4.0; the `.txt` files are the plain-text extractions those line numbers refer
+to. [`sources/README.md`](sources/README.md) explains which volume to consult and the citation
+convention.
 
-## 中文简介
+## Contributing
 
-本仓库把 RISC-V 指令整理为“配置 + 操作数 → 结果”的公式：左端是一次执行所需的特权/扩展/状态/操作数
-配置，右端是该指令产生的状态变化与异常；结果不同就拆成不同公式。目前包含标量浮点、向量浮点、
-H 扩展与 Svinval 三份交付（见上表），共享定义与写作约定在各交付的 `README.md`，工作流见
-`workflow.md`。
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) (or [`CONTRIBUTING.zh.md`](CONTRIBUTING.zh.md)):
+scope, authoring steps, writing rules, validation and the review checklist. Specifications are
+English-only; framework documents are English canonical with a Chinese companion.

@@ -1,10 +1,36 @@
-# 指令行为形式化工作流（通用方法，附 RISC-V 浮点示例）
+# 指令行为形式化工作流（通用框架，附实例）
 
-本文件是一份自包含的规范文档，分三部分：第一部分是形式化方法本身（§1–§11），它不限于浮点，可直接
-用于整数、访存、CSR、系统、原子等其他指令类别（§11 给出各类的代入方式）；第二部分用本仓库的浮点
-产出说明“产出文件长什么样”；第三部分是手册检索工具链（§B.1–§B.4）。
+本文件是一份自包含的规范文档，分三部分：第一部分是形式化方法本身（§0–§11），它不限于浮点，
+可直接用于整数、访存、CSR、系统、原子等其他指令类别（§11 给出各类的代入方式）；第二部分以
+仓库中的标量浮点实例说明“产出文件长什么样”，实例不是框架的定义；第三部分是手册检索工具链
+（§B.1–§B.4）。
 
-本文件用中文书写；§8 规定，据此产出的指令文档只用英文，每份一个语言版本。
+本文件用中文书写；§8 规定，据此产出的指令文档只用英文，每份一个语言版本。框架性文档以英文
+为准并提供中文对照（`README.md` / `README.zh.md`、`CONTRIBUTING.md` / `CONTRIBUTING.zh.md`）。
+
+---
+
+## 0. Overview (English)
+
+The method turns each instruction into a set of formulas
+
+$$
+\text{configuration} \ \land\ \text{operands} \ \land\ \text{instruction}
+\ \longrightarrow\ \text{results},
+$$
+
+one formula per distinguishable result category. The left-hand side has four ordered groups —
+execution environment, extension availability, mode selection, operands — and ends with the
+instruction conjunct. The right-hand side is the set of architectural changes: destination
+register/memory, state writes, sticky flags, and the synchronous exceptions the instruction
+raises. Formula `.0` is the guard for an unavailable extension or a forbidden execution
+configuration.
+
+The method is domain-independent: §11 substitutes the four groups for integer, load/store,
+atomic, CSR, branch and system instructions. The floating-point `FADD` example in §7 is a worked
+instance, not part of the framework. To start a new instance, copy [`templates/`](templates/README.md),
+follow [`CONTRIBUTING.md`](CONTRIBUTING.md), and register the result in
+[`specs/README.md`](specs/README.md).
 
 ---
 
@@ -138,8 +164,8 @@ $$
 
 其他人在别的扩展上产出文档时，建议满足以下几条，格式就能与本文档一致：
 
-1. **以产出为基准。** 第二部分展示示例产出的目录、README 章节与指令文件形态；新增文档对照该
-   形态写，不另立结构；公式样板见 §7。
+1. **以产出为基准。** 第二部分展示一个实例的目录、README 章节与指令文件形态；新增文档对照该
+   形态写，不另立结构；公式样板见 §7，骨架见 `templates/`。其他实例的登记见 `specs/README.md`。
 2. **只用符号表。** 需要新符号时，先在产出 README 的符号表增加一行（符号、含义、取值或写法、
    出处），再在公式中使用；不得在单个文档里私自定义符号。
 3. **骨架与编号。** 共享定义在 README；指令文件是“标题 + 一段说明 + 编号公式块”，编号
@@ -296,7 +322,7 @@ README，不展开进公式。
 
 ## 7. 示例：FADD 的五类公式
 
-完整文件是产出中的 `instructions/fadd.md`（55 条）。本节从该文件摘出五条代表公式，覆盖守卫、
+完整文件是示例实例中的 `instructions/fadd.md`。本节从该文件摘出五条代表公式，覆盖守卫、
 NaN、无穷、零与上溢五类形态。格式一律参数化为 $F$，一条公式覆盖
 H/S/D/Q；格式条件 $(F\in\{\mathrm{H},\mathrm{S},\mathrm{D},\mathrm{Q}\})$ 与
 $(\mathrm{instr}=\mathrm{FADD}.F)$ 逐块写全。
@@ -450,31 +476,11 @@ $$
 
 其余三种只改符号与模式集合，见 `fadd.md` 的 `.46`–`.54`（每个类别同样写三种特权配置）。
 
-### 7.7 五十五条的分布
+### 7.7 其余公式
 
-| 编号 | 类别 |
-|---|---|
-| `.0` | 扩展不可用或有效 `FS` 为 Off → 只有 `IllegalInstruction(2)` |
-| `.1`–`.3` | sNaN |
-| `.4`–`.6` | 异号无穷 |
-| `.7`–`.9` | 只有 qNaN |
-| `.10`–`.12` | 含 $+\infty$、不含 $-\infty$ |
-| `.13`–`.15` | 含 $-\infty$、不含 $+\infty$ |
-| `.16`–`.18` | 两个 $+0$ |
-| `.19`–`.21` | 异号零，有效舍入 $\ne$ `RDN(2)` |
-| `.22`–`.24` | 非零精确抵消，有效舍入 $\ne$ `RDN(2)` |
-| `.25`–`.27` | 两个 $-0$ |
-| `.28`–`.30` | 异号零，有效舍入 $=$ `RDN(2)` |
-| `.31`–`.33` | 非零精确抵消，有效舍入 $=$ `RDN(2)` |
-| `.34`–`.36` | 正规精确 |
-| `.37`–`.39` | 正规不精确 |
-| `.40`–`.42` | 次正规（必精确） |
-| `.43`–`.45` | 正上溢，有效舍入 $\in\{\mathrm{RNE}(0),\mathrm{RUP}(3),\mathrm{RMM}(4)\}$ |
-| `.46`–`.48` | 正上溢，有效舍入 $\in\{\mathrm{RTZ}(1),\mathrm{RDN}(2)\}$ |
-| `.49`–`.51` | 负上溢，有效舍入 $\in\{\mathrm{RNE}(0),\mathrm{RDN}(2),\mathrm{RMM}(4)\}$ |
-| `.52`–`.54` | 负上溢，有效舍入 $\in\{\mathrm{RTZ}(1),\mathrm{RUP}(3)\}$ |
-
-每三行对应一个结果类别，依次为 `No H, M/S/U`、`H, M/HS/U`、`H, VS/VU`。
+本节只摘录代表性公式。`fadd.md` 按求值顺序列出全部结果类别，每个类别按三类特权配置各写一块；
+编号与分类以该文件为准，本文不再重复。新增实例时不必照搬这套分类，按该指令实际可区分的结果
+类别拆分即可。
 
 格式参数化后，S/D/Q 不需要另写一套；换指令时只替换助记符、扩展条件（`impl(Ext(F))` 换成该指令
 组的条件）和可达标志。
@@ -488,11 +494,10 @@ $$
 最终产出是一个目录：
 
 ```
-specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/
+specs/<instance>/
 ├── README.md                 # 共享说明
-└── instructions/             # 43 个指令文件
-    ├── fadd.md
-    ├── fdiv.md
+└── instructions/             # 每个助记符组一个指令文件
+    ├── <mnemonic>.md
     └── ...
 ```
 
@@ -505,24 +510,26 @@ specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/
 舍入或状态定义、异常编号与标志语义都在 README；指令文件只回答“这条指令在这些条件下产生什么”。
 新增指令不需要复制任何定义，改一条通用规则也只改一处。
 
-操作数形式不同的变体单列一个文件（示例：`zfinx.md`），因为操作数、特性条件和状态行为都不同；
-它写成替换规则加每种元数的代表公式，见 §8.3 的说明。
+操作数形式不同的变体单列一个文件（示例：标量实例的 `zfinx.md`），因为操作数、特性条件和状态
+行为都不同；它写成替换规则加每种元数的代表公式，见 §8.3 的说明。
 
-规模：README + 43 个指令文件，1504 条指令公式块；取指异常并入了每条公式的 `exception` 字段。
+骨架见 `templates/delivery-README.md` 与 `templates/instruction.md`。规模由实例决定：每个交付
+的文件数与公式块数在 `specs/README.md` 的实例索引中维护。
 
 ### 8.2 README 骨架
 
-README 承载所有跨指令共用的内容。下面是通用骨架；括号内是浮点示例的填充：
+README 承载所有跨指令共用的内容。下面是通用骨架；可从
+`templates/delivery-README.md` 起步，按域删除不适用的节，保留其余节的编号：
 
 | 节 | 内容 |
 |---|---|
 | 1 | 公式形态：左右两侧的分组与固定顺序 |
-| 2 | 符号表；可按域增设常量子表（浮点示例为 `FLI` 的 32 个常量） |
+| 2 | 符号表；可按域增设常量子表（浮点实例为 `FLI` 的常量表） |
 | 3 | 写作规则 |
 | 4 | 特性与格式条件：扩展映射、逐指令组条件 |
 | 5 | 操作数：字段与值类、装箱或写回、访存谓词（按域取舍） |
-| 6 | 舍入与状态：模式、舍入函数、写集（无此概念的域省略） |
-| 7 | 异常与标志：编号、优先级与公式中的取指阶段、语义、逐指令汇总 |
+| 6 | 状态与标志：写集、舍入模式或粘性标志（无此概念的域省略） |
+| 7 | 异常：编号、优先级、公式中的取指阶段与逐指令汇总 |
 | 8 | 指令索引：按家族分组，链到每个文件 |
 | 9 | 校验 |
 
@@ -563,11 +570,11 @@ README 的英文正文与表就是格式基准；其符号表与本文档 §3.2 
 公式再抄一遍。示例：`zfinx.md` 把 `fd` 换成 `\mathrm{xwr}_F(\mathrm{rd},…)`、操作数经
 `\mathrm{xop}_F` 读取，删去 `FS` 与状态赋值。
 
-### 8.4 排版自查（可选）
+### 8.4 排版自查
 
-如果本地有仓库自带的 `tools/check_md.py` 与 `tools/check_style.py`，可以对 README 和单个文件
-各跑一次，检查定界符配对、表格列数和公式块形状。它们只是辅助，不是产出的一部分，也不必随分发
-包提供；语义仍需人工核对。
+仓库自带的 `tools/check_md.py` 与 `tools/check_style.py` 对 README 和每个指令文件各跑一次，
+检查定界符配对、表格列数和公式块形状。它们只检查结构，语义仍需人工核对；具体用法见
+`tools/README.md`。
 
 ### 8.5 索引与统计
 
@@ -577,25 +584,22 @@ README 的英文正文与表就是格式基准；其符号表与本文档 §3.2 
 - 逐指令组的特性条件表；
 - 逐指令的异常或标志汇总（该域有时）。
 
-统计口径：公式块数按 `**(MNEMONIC.n)` 计；文件数按助记符组计。当前为 1504 条指令公式、43 个
-文件；取指异常不单列块，已写入每条公式的 `exception` 字段。
+统计口径：公式块数按 `**(MNEMONIC.n)` 计；文件数按助记符组计。取指阶段的结果只取决于取指
+地址、对所有指令相同，不单列块，也不写进公式的 `exception` 字段，在实例 README 中统一说明
+一次。具体计数以 `specs/README.md` 的实例索引为准，不在本文件中重复。
 
-### 8.6 分发打包
+### 8.6 复用与分发
 
-对外分发只需要三样东西：
+框架面向复用，三样东西即可：
 
-| 分发包内路径 | 来源 |
+| 复用内容 | 用途 |
 |---|---|
-| `workflow.md` | 本文件 |
-| `skills/riscv-manual/SKILL.md` | 手册检索技能文档（内容见第三部分） |
-| `README.md` | 分发包说明：内容清单与技能安装位置 |
+| `workflow.md` | 方法说明 |
+| `templates/` | 交付 README 与指令文件骨架 |
+| `tools/` | 结构校验器 |
 
-```bash
-tar czf fp-formalization-workflow-v1.tar.gz -C dist fp-formalization-workflow
-```
-
-接收方把 `skills/riscv-manual/` 复制到 `~/.claude/skills/` 即得到同名技能；`pdf-mcp` 的注册与
-自检命令见 §B.4。
+接收方复制 `templates/` 并按 `templates/README.md` 实例化；需要快照时用 `git archive`
+导出当前提交即可，不使用固定命名的打包文件。
 
 ---
 
@@ -607,6 +611,10 @@ tar czf fp-formalization-workflow-v1.tar.gz -C dist fp-formalization-workflow
 - [ ] 结果写域内规范值或类别（浮点写 IEEE 类），不写位模式。
 - [ ] 参数化到位：一条公式覆盖全部格式或变体；操作数形式不同时单列。
 - [ ] 非显然的手册论断附 `sources/*.txt` 行号。
+- [ ] 实例 README 的扩展条件表、标志汇总与指令索引与 `instructions/` 下的文件一一对应；
+      文件数与公式块数与 `specs/README.md` 的记录一致。
+- [ ] `python3 -I tools/check_md.py` 与 `python3 -I tools/check_style.py` 对每个改动过的文件
+      返回 0；`grep -R '{{' specs/*/` 没有输出。
 
 ---
 
@@ -649,7 +657,7 @@ tar czf fp-formalization-workflow-v1.tar.gz -C dist fp-formalization-workflow
 3. 结果类别构成对确定配置的划分，未定义的配置（例如保留编码）单列并排除；
 4. 左端按四组排序、`instr` 最后；右端按目标、状态、标志、异常排序（该域没有的项省略）；
 5. 编号 `MNEMONIC.n`，按求值顺序递增；格式参数化，不按格式各写一套；
-6. 有校验器时通过 `check_md.py` 与 `check_style.py`（可选）。
+6. 每个改动过的文件通过 `check_md.py` 与 `check_style.py`，并在 `specs/README.md` 中登记实例。
 
 **示意一：整数加法。** 整数运算没有执行环境与模式选择两组，右端也没有状态与标志项：
 
@@ -678,20 +686,24 @@ $$
 
 示意式只示范形态，不是完整模型；完整模型同样按 §6 的流程逐类别展开。
 
+新家族的起点是 `templates/` 下的两个骨架（复制后替换全部 `{{…}}` 占位符），协作约定见
+`CONTRIBUTING.md`，产成后在 `specs/README.md` 的实例索引中加一行。
+
 ---
 
-## 第二部分 示例产出：RISC-V 标量浮点
+## 第二部分 实例：RISC-V 标量浮点（示例，不是框架定义）
 
 第一部分的方法有一个完整实例：
 `specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/`。本部分只说明产出的文件形态与
-组织方式，不重复其中的定义与公式；公式样板见 §7，完整内容见该目录。
+组织方式，不重复其中的定义与公式；公式样板见 §7，完整内容见该目录。其他实例见
+`specs/README.md`；新增实例的入口是 `templates/`。
 
 ### A.1 目录与规模
 
 ```
 specs/f-d-q-…/
 ├── README.md                 # 共享说明
-└── instructions/             # 43 个指令文件
+└── instructions/             # 每个助记符组一个指令文件
     ├── fadd.md
     ├── fdiv.md
     └── ...
@@ -702,8 +714,8 @@ specs/f-d-q-…/
 | `README.md` | 全部共享材料：公式形态、符号表、特性与格式条件、操作数、舍入与状态、异常与标志、指令索引 |
 | `instructions/<mnemonic>.md` | 一个助记符组：标题、一段语义说明、编号公式块；只含本组结果 |
 
-规模：1 个 README + 43 个指令文件，1504 条指令公式块；取指异常并入每条公式的 `exception` 字段。
-目录名列出覆盖的扩展；跨文件共用的内容只写一次。
+规模随实例而定，当前文件数与公式块数见 `specs/README.md` 的实例索引。目录名列出覆盖的扩展；
+跨文件共用的内容只写一次。
 
 ### A.2 README 的写法
 
@@ -729,7 +741,7 @@ README 按 §8.2 的九节组织；示例产出中每节的填充物是：
 
 1. 标题：`# FADD — floating-point add`。
 2. 一段说明：语义、格式、特性条件，以及本组不可达的标志及理由（`DZ`、`UF` 不可达）。
-3. 19 个编号公式块：`.0` 守卫，`.1`–`.18` 按求值顺序覆盖全部结果类别。
+3. 若干编号公式块：`.0` 守卫，其后按求值顺序覆盖全部结果类别（编号以该文件为准）。
 
 §7 摘出了其中五条（守卫、sNaN、$+\infty$、异号零、上溢），完整文件见产出。其余指令文件同一
 形态，只替换助记符、特性条件、操作数条件与可达标志。
@@ -747,15 +759,17 @@ README 按 §8.2 的九节组织；示例产出中每节的填充物是：
 | `mstateen0.FCSR` 在 `misa.F=1` 时只读 0 | Priv. §4.2，`sources/riscv-privileged.txt:4692-4699` |
 | 异常编号 2 = Illegal instruction | Priv. Table 50，`…:10424` |
 
-交付前按 §9 核对；有校验器时按 §8.4 跑一次（可选）。
+交付前按 §9 核对，并按 §8.4 跑两个校验器。
 
 ### A.5 复用这个形态
 
 换到别的指令类别时，不改文件组织，只换内容：
 
-1. 建一个 README：§1–§3 与 §7–§9 照形态写，§4–§6 换成该域的特性条件、操作数与状态。
-2. 按助记符组建 `instructions/<mnemonic>.md`，每个文件一个组。
-3. 共享定义（符号、编码映射、操作数类别、异常与标志语义）全部放 README，指令文件只写结果式。
+1. 从 `templates/delivery-README.md` 与 `templates/instruction.md` 复制骨架，替换全部占位符。
+2. 建实例 README：§1–§3 与 §7–§9 照形态写，§4–§6 换成该域的特性条件、操作数与状态。
+3. 按助记符组建 `instructions/<mnemonic>.md`，每个文件一个组。
+4. 共享定义（符号、编码映射、操作数类别、异常与标志语义）全部放 README，指令文件只写结果式。
+5. 在 `specs/README.md` 中登记实例，并按 `CONTRIBUTING.md` 的清单自检。
 
 ---
 
@@ -771,9 +785,9 @@ README 按 §8.2 的九节组织；示例产出中每节的填充物是：
 | Unprivileged ISA（Vol I） | `sources/riscv-unprivileged.pdf` | 696 | 784 |
 | Privileged ISA（Vol II） | `sources/riscv-privileged.pdf` | 214 | 240 |
 
-按主题选卷：指令语义、操作数、编码、浮点、F/D/Q/Zfh/Zfa/Zfinx 查 Unprivileged；CSR、
-`mstatus`/`sstatus`/`vsstatus`、`misa`、`fcsr`、stateen、陷阱、虚拟化、特权级查 Privileged。
-跨卷的问题（例如 `misa.F` 对浮点指令的门控）两卷都查，并注明每条论断来自哪一卷。
+按主题选卷：指令语义、操作数、编码、压缩、原子、向量、浮点与各扩展查 Unprivileged；CSR、
+`mstatus`/`sstatus`/`vsstatus`/`misa`、stateen、陷阱、PMP、地址转换、虚拟化与特权级查
+Privileged。跨卷的问题（例如 `misa.F` 对浮点指令的门控）两卷都查，并注明每条论断来自哪一卷。
 
 同目录下的 `sources/riscv-*.txt` 是同一 PDF 的 `pdftotext -layout` 输出，措辞一致。PDF 页与
 `.txt` 行是同一来源的两个视图：定位用 PDF，引用行号用 `.txt`。
@@ -793,8 +807,9 @@ README 按 §8.2 的九节组织；示例产出中每节的填充物是：
 
 1. **选卷并定向。** 对目标 PDF 调一次 `pdf_info`。
 2. **按节定位。** `pdf_search(path, query, granularity="section", max_results=8)`，返回节标题与
-   页码范围。查询用 1–3 个具体词：`Zfhmin`、`stateen0 FCSR`、`canonical NaN`、`FSGNJ`。精确
-   标识符与 CSR 字段名用 `mode="keyword"`；不知道手册措辞时用 `mode="auto"`。
+   页码范围。查询用 1–3 个具体词：`AMO`、`PMP`、`compressed instructions`、`Zfhmin`、
+   `stateen0 FCSR`、`canonical NaN`、`FSGNJ`。精确标识符与 CSR 字段名用 `mode="keyword"`；
+   不知道手册措辞时用 `mode="auto"`。
 3. **读证据。** 用 `pdf_read_pages(path, "<start>-<end>")` 打开命中范围，引用前必须读原文。
 4. **核对图与表。** 指令编码图、位域表、抽取后列错乱的表格，用 `pdf_render_pages` 看图。
 5. **取行号。** 用字面 `grep -n` 在 `sources/*.txt` 中定位同一句，记录行号，不得臆造。
@@ -813,8 +828,8 @@ README 按 §8.2 的九节组织；示例产出中每节的填充物是：
 
 ### B.4 环境与排障
 
-- **技能。** 检索技能名为 `riscv-manual`，文档在 `~/.claude/skills/riscv-manual/SKILL.md`；
-  分发包中的副本位于 `skills/riscv-manual/SKILL.md`。
+- **检索技能。** 本工作流使用的检索技能是本地安装的 `riscv-manual`（不在本仓库内）；
+  没有该技能时直接用下面的 `pdf-mcp` 工具，检索步骤不变。
 - **MCP 服务器。** `pdf-mcp` 在用户级注册；`~/.local/bin/pdf-mcp` 是指向
   `~/.local/venvs/pdf-mcp` 的符号链接，不修改系统 Python。自检：
 
@@ -824,7 +839,7 @@ README 按 §8.2 的九节组织；示例产出中每节的填充物是：
   ```
 
 - **语义检索所需环境变量。** `HF_ENDPOINT=https://hf-mirror.com`（huggingface.co 不可直连）、
-  `FASTEMBED_CACHE_PATH=/nfs/home/pushaoyong/.cache/fastembed`（模型
+  `FASTEMBED_CACHE_PATH=~/.cache/fastembed`（模型
   `BAAI/bge-small-en-v1.5` 已下载）。语义模型不可用时改用 `mode="keyword"`，关键词与按节检索
   不依赖模型。
 - **没有 `pdf_*` 工具。** 服务器注册晚于会话启动时会发生；重启 Claude Code 或用 `/mcp` 检查
