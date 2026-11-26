@@ -488,7 +488,7 @@ $$
 最终产出是一个目录：
 
 ```
-out/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/
+specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/
 ├── README.md                 # 共享说明
 └── instructions/             # 43 个指令文件
     ├── fadd.md
@@ -683,13 +683,13 @@ $$
 ## 第二部分 示例产出：RISC-V 标量浮点
 
 第一部分的方法有一个完整实例：
-`out/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/`。本部分只说明产出的文件形态与
+`specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/`。本部分只说明产出的文件形态与
 组织方式，不重复其中的定义与公式；公式样板见 §7，完整内容见该目录。
 
 ### A.1 目录与规模
 
 ```
-out/f-d-q-…/
+specs/f-d-q-…/
 ├── README.md                 # 共享说明
 └── instructions/             # 43 个指令文件
     ├── fadd.md

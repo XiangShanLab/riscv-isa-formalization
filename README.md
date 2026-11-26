@@ -15,9 +15,9 @@ instruction produces for that configuration. Different outcomes get different fo
 
 | Directory | Scope | Files | Formulas |
 |---|---|---|---|
-| `out/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/` | Scalar floating point: `F`, `D`, `Q`, `Zfh`, `Zfhmin`, `Zfbfmin`, `Zfa`, `Zfinx`, `Zdinx`, `Zhinx`, `Zhinxmin` | 43 | 1504 |
-| `out/v-zvfh-zvfhmin-zvfbfmin-zvfbfwma/` | Vector floating point (`V` with `Zvfh`, `Zvfhmin`, `Zvfbfmin`, `Zvfbfwma`) | 34 | 193 |
-| `out/h-svinval/` | H-extension `HLV`/`HSV`/`HLVX`, `HFENCE.VVMA`/`HFENCE.GVMA`, and Svinval `HINVAL.VVMA`/`HINVAL.GVMA` | 5 | 45 |
+| `specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/` | Scalar floating point: `F`, `D`, `Q`, `Zfh`, `Zfhmin`, `Zfbfmin`, `Zfa`, `Zfinx`, `Zdinx`, `Zhinx`, `Zhinxmin` | 43 | 1504 |
+| `specs/v-zvfh-zvfhmin-zvfbfmin-zvfbfwma/` | Vector floating point (`V` with `Zvfh`, `Zvfhmin`, `Zvfbfmin`, `Zvfbfwma`) | 34 | 193 |
+| `specs/h-svinval/` | H-extension `HLV`/`HSV`/`HLVX`, `HFENCE.VVMA`/`HFENCE.GVMA`, and Svinval `HINVAL.VVMA`/`HINVAL.GVMA` | 5 | 45 |
 
 Each delivery directory contains a `README.md` with the shared definitions (formula shape, symbol
 table, conventions, exceptions, instruction index) and an `instructions/` directory with one file
@@ -27,10 +27,9 @@ per mnemonic group. Read the delivery README first; it makes the instruction fil
 
 ```
 .
-├── out/               # deliverables (table above)
+├── specs/             # deliverables (table above)
 ├── sources/           # ISA manuals: PDFs and plain-text extractions
 ├── tools/             # formula structure and style checkers
-├── prog/              # Spike/Sail differential-testing pipeline (generated artifacts untracked)
 ├── reports/           # ACT4 comparison reports (raw 35 MB diff untracked)
 ├── workflow.md        # how a family is derived from the manuals, with a worked FADD example
 ├── README-fp-zh.md    # Chinese translation of the scalar delivery README (reading aid only)
@@ -39,11 +38,11 @@ per mnemonic group. Read the delivery README first; it makes the instruction fil
 
 ## Validation
 
-Every Markdown file under `out/` must pass both checkers (exit code 0):
+Every Markdown file under `specs/` must pass both checkers (exit code 0):
 
 ```bash
-find out -name '*.md' -exec python3 -I tools/check_md.py {} \;
-find out -name '*.md' -exec python3 -I tools/check_style.py {} \;
+find specs -name '*.md' -exec python3 -I tools/check_md.py {} \;
+find specs -name '*.md' -exec python3 -I tools/check_style.py {} \;
 ```
 
 `check_md.py` checks formula delimiters, environment balance, table column counts, and inline-math

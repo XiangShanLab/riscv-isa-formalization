@@ -10,7 +10,7 @@
 
 本工作区同时检查：
 
-- `out/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/` 的公式与 README §5.6。
+- `specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/` 的公式与 README §5.6。
 - `prog/` 对应目录的 `generate.py`、补充生成器与 `generated/*/cases.json`。
 
 **形式化公式中的变量取值范围、生成器选定的代表值、已经生成的测试用例，是三个不同层次。** 下文的覆盖指当前程序生成的用例；公式本身接受手册允许的全部输入，没有任何一条结果式因缺少某个位型常量而被判定为语义缺失。补齐也不构成公式完备性的证明。
@@ -175,7 +175,7 @@ ACT4 的 D→S、D→H、S→H 各有 **14 个具体坏装箱值**，低位涵�
 1. `generate.py` 的 `twohalf`：由 3.0 改为 2.5（第 2 节）。
 2. `run.py` 的 Sail 指令上限：由 `cases × 40` 改为 `cases × 80`。每个用例约 44–48 条指令，旧上限使大程序在结尾前触发 `--inst-limit`，首轮重跑出现 12,812 个框架错误（签名记录 ID 不匹配）；新上限下框架错误为 0。Sail 仍必须报告 `SUCCESS`，达到指令上限不算完成。
 
-交付文档（`out/`）的公式与 README 未改动；本次只改生成器、重生成清单与结果、重跑比较，并更新本报告与比较数据。
+交付文档（`specs/`）的公式与 README 未改动；本次只改生成器、重生成清单与结果、重跑比较，并更新本报告与比较数据。
 
 ## 9. 复现
 

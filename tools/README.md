@@ -8,7 +8,7 @@ python3 -I tools/check_style.py <file.md>
 ```
 
 Both are idempotent; exit code 0 means the file passes. Every `README.md` and instruction file
-under `out/` must pass both.
+under `specs/` must pass both.
 
 | Script | What it checks |
 |---|---|

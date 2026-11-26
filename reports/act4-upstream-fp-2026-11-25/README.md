@@ -2,7 +2,7 @@
 
 改动位于 `/nfs/home/pushaoyong/xs-work/riscv-arch-test`（实际 ACT4 仓库；`~/xs-work/act4` 不存在）。本地分支为 `fp-formalization-coverage`，基点和当前 HEAD 均为 `95ca74cb2dbadba39452cbe9b11b619b83b177a3`。**未提交、未推送、未创建 PR。**
 
-依据是本工作区 `out/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/`，以及前次差异报告 §6。新增内容使用 ACT4 的 CSV testplan、注册式 Python generator/formatter、SystemVerilog coverpoint template、normative-rule YAML 和 CTP AsciiDoc。`tests/` 与生成的 `coverpoints/` 均经原生生成器生成。
+依据是本工作区 `specs/f-d-q-zfh-zfhmin-zfbfmin-zfa-zfinx-zdinx-zhinx-zhinxmin/`，以及前次差异报告 §6。新增内容使用 ACT4 的 CSV testplan、注册式 Python generator/formatter、SystemVerilog coverpoint template、normative-rule YAML 和 CTP AsciiDoc。`tests/` 与生成的 `coverpoints/` 均经原生生成器生成。
 
 浮点章节预览：[floating-point-ctp-preview.html](floating-point-ctp-preview.html)。
 
