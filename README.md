@@ -30,7 +30,6 @@ per mnemonic group. Read the delivery README first; it makes the instruction fil
 ├── specs/             # deliverables (table above)
 ├── sources/           # ISA manuals: PDFs and plain-text extractions
 ├── tools/             # formula structure and style checkers
-├── reports/           # ACT4 comparison reports (raw 35 MB diff untracked)
 ├── workflow.md        # how a family is derived from the manuals, with a worked FADD example
 ├── README-fp-zh.md    # Chinese translation of the scalar delivery README (reading aid only)
 └── README.md          # this file
